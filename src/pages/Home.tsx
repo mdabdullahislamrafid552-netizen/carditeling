@@ -11,7 +11,7 @@ const Home = () => {
       <section className="relative min-h-[921px] flex items-center pt-20 pb-32 overflow-hidden bg-surface-container-lowest">
         <div className="absolute inset-0 z-0">
           <div className="w-full h-full bg-surface-container-lowest opacity-40 mix-blend-multiply absolute inset-0 z-10"></div>
-          <div className="absolute inset-0 bg-cover bg-center z-0" style={{ backgroundImage: "url('/images/hero.png')" }}></div>
+          <div className="absolute inset-0 bg-cover bg-center z-0" style={{ backgroundImage: "url('/images/hero.jpg')" }}></div>
         </div>
         <div className="hero-glow z-10"></div>
         <div className="relative z-20 w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-12 gap-gutter">
