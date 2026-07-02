@@ -11,7 +11,7 @@ const Home = () => {
       <section className="relative min-h-[921px] flex items-center pt-20 pb-32 overflow-hidden bg-surface-container-lowest">
         <div className="absolute inset-0 z-0">
           <div className="w-full h-full bg-surface-container-lowest opacity-40 mix-blend-multiply absolute inset-0 z-10"></div>
-          <div className="absolute inset-0 bg-cover bg-center z-0" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuB9y-HkeK3BjIWEQn_lIt_aWj7yeyq33pkOz6tWGik7uASreRzK3GglH4BLn5QQNO-Ar6englcLmOYSQF79mBR0Ahe8sxhkpALlWOpBQb72eHX_EioScIiVpS2j4iQWL6-rpiy3KuZ691cTqck-DGtpeHXTg4QxPtoj-2r1tz30aSulnpy5bOeD_QpO_kZMKwldmkQB5LkJ_iNwQKAMU_KJR_jZXNHzHU4_3jP9rRB9b-R7N_7O1Y01vuOaIjsd_EDDLBwdrTVOpaIi')" }}></div>
+          <div className="absolute inset-0 bg-cover bg-center z-0" style={{ backgroundImage: "url('/images/hero.png')" }}></div>
         </div>
         <div className="hero-glow z-10"></div>
         <div className="relative z-20 w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-12 gap-gutter">
