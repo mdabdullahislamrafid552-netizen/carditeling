@@ -1,0 +1,27 @@
+{
+  "id": "vanta",
+  "slug": "vanta-auto-detailing",
+  "name": "Vanta Auto Detailing",
+  "contact": {
+    "phone": "(555) 123-4567",
+    "email": "booking@vantaautodetailing.com",
+    "address": "Los Angeles, CA",
+    "whatsapp": "+15551234567"
+  },
+  "businessHours": "Mon-Sat: 9AM - 6PM",
+  "social": {
+    "instagram": "https://instagram.com/vanta",
+    "facebook": "https://facebook.com/vanta"
+  },
+  "branding": {
+    "logoUrl": "/clients/vanta-auto-detailing/logo/vanta-logo.svg",
+    "faviconUrl": "/clients/vanta-auto-detailing/favicon.ico",
+    "colors": {
+      "primary": "#b98a4b"
+    }
+  },
+  "seo": {
+    "title": "Vanta Auto Detailing | Elite Car Care",
+    "description": "Engineered for precision. We transform luxury vehicles with meticulous attention to detail, advanced ceramic coatings, and flawless paint correction."
+  }
+}

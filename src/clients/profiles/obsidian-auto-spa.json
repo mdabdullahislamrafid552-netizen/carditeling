@@ -1,0 +1,27 @@
+{
+  "id": "obsidian",
+  "slug": "obsidian-auto-spa",
+  "name": "Obsidian Auto Spa",
+  "contact": {
+    "phone": "(305) 987-6543",
+    "email": "hello@obsidianautospa.com",
+    "address": "Miami, FL",
+    "whatsapp": "+13059876543"
+  },
+  "businessHours": "Mon-Fri: 8AM - 5PM",
+  "social": {
+    "instagram": "https://instagram.com/obsidian",
+    "facebook": "https://facebook.com/obsidian"
+  },
+  "branding": {
+    "logoUrl": "/clients/obsidian-auto-spa/logo/obsidian-logo.svg",
+    "faviconUrl": "/clients/obsidian-auto-spa/favicon.ico",
+    "colors": {
+      "primary": "#4a90e2"
+    }
+  },
+  "seo": {
+    "title": "Obsidian Auto Spa | Premium Detailing",
+    "description": "Miami's premier auto spa for luxury and exotic vehicles."
+  }
+}

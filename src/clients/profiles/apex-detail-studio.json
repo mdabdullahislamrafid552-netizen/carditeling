@@ -1,0 +1,27 @@
+{
+  "id": "apex",
+  "slug": "apex-detail-studio",
+  "name": "Apex Detail Studio",
+  "contact": {
+    "phone": "(212) 555-0199",
+    "email": "service@apexdetailstudio.com",
+    "address": "New York, NY",
+    "whatsapp": "+12125550199"
+  },
+  "businessHours": "Tue-Sun: 10AM - 7PM",
+  "social": {
+    "instagram": "https://instagram.com/apex",
+    "facebook": "https://facebook.com/apex"
+  },
+  "branding": {
+    "logoUrl": "/clients/apex-detail-studio/logo/apex-logo.svg",
+    "faviconUrl": "/clients/apex-detail-studio/favicon.ico",
+    "colors": {
+      "primary": "#d32f2f"
+    }
+  },
+  "seo": {
+    "title": "Apex Detail Studio | High-End Auto Care",
+    "description": "New York's finest automotive detailing and ceramic coating specialists."
+  }
+}
