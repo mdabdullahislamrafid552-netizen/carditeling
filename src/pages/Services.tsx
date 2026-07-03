@@ -3,9 +3,14 @@ import { useClient } from '../clients/ClientContext';
 import { ClientLink } from '../components/ui/ClientLink';
 import { FadeIn } from '../components/animations/FadeIn';
 import { StaggerContainer, StaggerItem } from '../components/animations/StaggerContainer';
+import EqualizerServices from './demos/equalizer/EqualizerServices';
 
 const Services = () => {
   const { client } = useClient();
+
+  if (client.slug === 'the-equalizer-mobile-car-detailing') {
+    return <EqualizerServices />;
+  }
 
   return (
     <div className="bg-background min-h-screen flex flex-col">

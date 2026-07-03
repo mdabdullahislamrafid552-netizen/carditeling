@@ -4,12 +4,17 @@ import { ClientLink } from '../components/ui/ClientLink';
 import { FadeIn } from '../components/animations/FadeIn';
 import { StaggerContainer, StaggerItem } from '../components/animations/StaggerContainer';
 import RiptideHome from './demos/riptide/RiptideHome';
+import EqualizerHome from './demos/equalizer/EqualizerHome';
 
 const Home = () => {
   const { client } = useClient();
 
   if (client.slug === 'riptide-car-wash') {
     return <RiptideHome />;
+  }
+
+  if (client.slug === 'the-equalizer-mobile-car-detailing') {
+    return <EqualizerHome />;
   }
 
   return (

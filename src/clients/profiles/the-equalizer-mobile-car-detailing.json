@@ -1,0 +1,33 @@
+{
+  "id": "equalizer",
+  "name": "The Equalizer Mobile Car Detailing",
+  "slug": "the-equalizer-mobile-car-detailing",
+  "tagline": "Precision. Protection. Perfection.",
+  "contact": {
+    "phone": "(555) 019-3824",
+    "email": "eqpremiuminfo@gmail.com",
+    "address": "St. Catharines and Niagara Region",
+    "serviceArea": "St. Catharines & Niagara Region"
+  },
+  "businessHours": "Mobile Service (Hours TBD)",
+  "social": {
+    "instagram": "https://www.instagram.com/equalizerdetailing/",
+    "facebook": "",
+    "yelp": "",
+    "google": ""
+  },
+  "branding": {
+    "logoUrl": "/images/equalizer-logo.png",
+    "faviconUrl": "/images/equalizer-logo.png",
+    "colors": {
+      "primary": "#39FF14",
+      "background": "#09090b",
+      "surface": "#18181b",
+      "onSurface": "#ffffff"
+    }
+  },
+  "seo": {
+    "title": "The Equalizer Mobile Car Detailing | Mobile Detailing Niagara",
+    "description": "Premium mobile auto detailing for interior, exterior, and protection-focused service across St. Catharines and the Niagara Region."
+  }
+}

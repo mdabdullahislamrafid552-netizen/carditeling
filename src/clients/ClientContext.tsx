@@ -4,12 +4,14 @@ import vanta from './profiles/vanta-auto-detailing.json';
 import obsidian from './profiles/obsidian-auto-spa.json';
 import apex from './profiles/apex-detail-studio.json';
 import riptide from './profiles/riptide-car-wash.json';
+import equalizer from './profiles/the-equalizer-mobile-car-detailing.json';
 
 const clientProfiles: Record<string, ClientProfile> = {
   'vanta-auto-detailing': vanta,
   'obsidian-auto-spa': obsidian,
   'apex-detail-studio': apex,
   'riptide-car-wash': riptide,
+  'the-equalizer-mobile-car-detailing': equalizer,
 };
 
 // Fallback is Vanta

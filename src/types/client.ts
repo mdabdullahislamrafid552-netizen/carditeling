@@ -2,6 +2,7 @@ export interface ClientProfile {
   id: string;
   slug: string;
   name: string;
+  tagline?: string;
   contact: {
     phone: string;
     email: string;

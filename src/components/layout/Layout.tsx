@@ -5,12 +5,17 @@ import { useClient } from '../../clients/ClientContext';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Phone, MapPin, Clock } from 'lucide-react';
 import RiptideLayout from '../../pages/demos/riptide/RiptideLayout';
+import EqualizerLayout from '../../pages/demos/equalizer/EqualizerLayout';
 
 const Layout = () => {
   const { client } = useClient();
 
   if (client.slug === 'riptide-car-wash') {
     return <RiptideLayout />;
+  }
+
+  if (client.slug === 'the-equalizer-mobile-car-detailing') {
+    return <EqualizerLayout />;
   }
 
   const [isScrolled, setIsScrolled] = useState(false);

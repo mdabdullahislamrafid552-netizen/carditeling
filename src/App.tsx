@@ -48,11 +48,13 @@ const AppRoutes = () => (
       <Route path="reviews" element={<Reviews />} />
       <Route path="faq" element={<FAQ />} />
       <Route path="service-areas" element={<ServiceAreas />} />
+      <Route path="service-area" element={<ServiceAreas />} />
       <Route path="blog" element={<Blog />} />
       <Route path="blog/:articleSlug" element={<BlogArticle />} />
       <Route path="contact" element={<Contact />} />
       <Route path="request-quote" element={<Contact />} />
       <Route path="book-detail" element={<Contact />} />
+      <Route path="book" element={<Contact />} />
       <Route path="privacy-policy" element={<PrivacyPolicy />} />
       <Route path="terms-and-conditions" element={<TermsAndConditions />} />
     </Route>
@@ -80,11 +82,13 @@ const AppRoutes = () => (
         <Route path="reviews" element={<Reviews />} />
         <Route path="faq" element={<FAQ />} />
         <Route path="service-areas" element={<ServiceAreas />} />
+        <Route path="service-area" element={<ServiceAreas />} />
         <Route path="blog" element={<Blog />} />
         <Route path="blog/:articleSlug" element={<BlogArticle />} />
         <Route path="contact" element={<Contact />} />
         <Route path="request-quote" element={<Contact />} />
         <Route path="book-detail" element={<Contact />} />
+        <Route path="book" element={<Contact />} />
         <Route path="privacy-policy" element={<PrivacyPolicy />} />
         <Route path="terms-and-conditions" element={<TermsAndConditions />} />
       </Route>

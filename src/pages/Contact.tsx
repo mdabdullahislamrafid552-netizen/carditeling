@@ -1,9 +1,14 @@
 import React from 'react';
 import { useClient } from '../clients/ClientContext';
 import { ClientLink } from '../components/ui/ClientLink';
+import EqualizerContact from './demos/equalizer/EqualizerContact';
 
 const Contact = () => {
   const { client } = useClient();
+
+  if (client.slug === 'the-equalizer-mobile-car-detailing') {
+    return <EqualizerContact />;
+  }
 
   return (
     <div className="bg-background min-h-screen flex flex-col pt-24">
