@@ -126,7 +126,7 @@ const Contact = () => {
 
         {/* Integrated Map Area */}
         <div className="w-full h-96 bg-[#11171B] border border-outline-variant/10 mb-section-gap relative overflow-hidden group">
-          <div className="absolute inset-0 bg-cover bg-center opacity-60 group-hover:opacity-80 transition-all duration-700 group-hover:scale-105 transform" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuCAYbTdjPJ-x6o-9dQ20kpMq0ohlz06K3K6JZuvxLBBq6VZq6ZyCQLWrp9SbkQppSKIaA7HXcV2brS1b4Svb412CkPgDH6CVDS7OQ7RXftTMrZr5IJDjnPWguCRryV88xyQQbzjOamv149JYMiOrZQO7mfyqG1GD2WZmrZmIBNOfSzdP-C0v2M1ayK4UbpVDeqs-0c9uNUfG9uDR4w_5GJoeRUhNf8AHj8oik-LUKRyT4l-akP-CNJwad2ZMXVyZ0EmbD5KhLelUxyG')" }}></div>
+          <div className="absolute inset-0 bg-cover bg-center opacity-60 group-hover:opacity-80 transition-all duration-700 group-hover:scale-105 transform" style={{ backgroundImage: "url('/images/gallery_car_4.jpg')" }}></div>
           <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent pointer-events-none"></div>
           <div className="absolute bottom-8 left-8 flex items-center gap-3 bg-surface/80 backdrop-blur-md px-6 py-3 border border-outline-variant/30 rounded cursor-pointer hover:bg-surface transition-colors">
             <span className="material-symbols-outlined text-primary">directions</span>

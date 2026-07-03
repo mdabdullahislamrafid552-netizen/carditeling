@@ -30,7 +30,7 @@ const Gallery = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-gutter">
           {/* Feature Item 1 */}
           <ClientLink to="/gallery/porsche-911-gt3-rs" className="md:col-span-8 md:row-span-2 group relative rounded-lg overflow-hidden border border-outline-variant/10 bg-surface-container-low min-h-[400px] md:min-h-[600px] cursor-pointer block">
-            <div className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuB2oPGL_P9V-tl45aZ5nZL2zx4ikQybCcsbZcE6Zme4DctkfmkWT---ADiynuei8WDOiXWtayyLvBzRYF8IYYyFUAhO3zCYrqX7wGav7DUoHeAIQBLw4Rjlj6XKwgUMDSZ4u8yZoT1DdXPNxDwl6tW6iHixH6J6lA4elHKBN3k2S9SBVeLhlBFhqVGhKoEu_Y0zeRolxVrbnNjxjwRuFfhELu3b7YWHHF6JnrsRtig376iQ3lCSii9i0PA2sUiddOayRoInjgCMKmwT')" }}></div>
+            <div className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style={{ backgroundImage: "url('/images/service_interior.jpg')" }}></div>
             <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent opacity-80"></div>
             <div className="absolute bottom-0 left-0 p-8 w-full flex justify-between items-end">
               <div>
@@ -47,7 +47,7 @@ const Gallery = () => {
 
           {/* Smaller Item 2 */}
           <ClientLink to="/gallery/ferrari-f8" className="md:col-span-4 group relative rounded-lg overflow-hidden border border-outline-variant/10 bg-surface-container-low min-h-[288px] cursor-pointer block">
-            <div className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuA003QB47dKYbqNQWg1Nf88C1frzzGM0ycfDL2OUQCEcMj80Xd-EeGWp83gOAM4_Ih_1ThM33mgQWTa0EvtEowpqq_lOnyRtE_sD0rFUSubRwRagEliUi0KdXefvbDXzDCXzFlcA6JAHoY8GCy4U-0v_BXfSwk4-QmmZuSuWd0NpP7tq1xSu4wi5QJqPUEe_hbSn48cP7swC1hS4zYFn45fLG6wpUpZ1snq_9KIBHZYLkUIwsk2k_LP6ngaOUnQFGCHf8OTnK_onbFe')" }}></div>
+            <div className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style={{ backgroundImage: "url('/images/service_interior.jpg')" }}></div>
             <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-90"></div>
             <div className="absolute bottom-0 left-0 p-6">
               <h4 className="font-headline-lg text-headline-lg text-on-surface text-xl">Wheel &amp; Caliper Refinement</h4>
@@ -57,7 +57,7 @@ const Gallery = () => {
 
           {/* Smaller Item 3 */}
           <ClientLink to="/gallery/bentley-continental" className="md:col-span-4 group relative rounded-lg overflow-hidden border border-outline-variant/10 bg-surface-container-low min-h-[288px] cursor-pointer block">
-            <div className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuBeUCkUq6gNXtUp6xD8ij0RhO7u44DoHgI-BfntyUuJL0IFDEV0VQC3I2QSyGhtM65Rg_UNizw2SJ-18Vpw3ebM9OHw_oujddfcGdvdrePNTZeYsdxNTwkKmjoB9VqbtjDamqWM2qBbYFV8m8Xt6x1XnFRzOGknEDhKRfI4fyaBhdVsWI-b2FLvBBpE1u5m57lV95zgqqbBNsZz7-yIrs5L-RMjs_XJjCE3xvt6jfNGM_bpVrlgbkDMzg0AT3p1mxpWXwKQ8KIl8EW8')" }}></div>
+            <div className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style={{ backgroundImage: "url('/images/service_ppf.jpg')" }}></div>
             <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-90"></div>
             <div className="absolute bottom-0 left-0 p-6">
               <h4 className="font-headline-lg text-headline-lg text-on-surface text-xl">Leather Restoration</h4>
@@ -67,7 +67,7 @@ const Gallery = () => {
 
           {/* Medium Item 4 */}
           <ClientLink to="/gallery/aston-martin-vantage" className="md:col-span-6 group relative rounded-lg overflow-hidden border border-outline-variant/10 bg-surface-container-low min-h-[400px] cursor-pointer block">
-            <div className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuCypDxQg_Oi5ZitxZ9kQqBBhU7XhMnxOz0IDoNRgUN8dJaYzHzCwwyMWtpKWI4eddgEr-lKXeOiTu46gmWIIP9xs-0xg1-TllCw4aQtvq5RZ31RVXmjKf1NwMHs9dpAVdU936VfwYzmiYpmzdMo7KIWYY95L4NoYihBTHfjiO8-gcQberYP1hLh4k-RtnCFbnRnzroXRn9Yrsv0XTLWGZv9nacrkw3b95UukIZn9dfPN_d6Fe52CX9bYSsZv_KzzVdYVNk7ey_DvxgJ')" }}></div>
+            <div className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style={{ backgroundImage: "url('/images/service_wheel.jpg')" }}></div>
             <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/10 to-transparent"></div>
             <div className="absolute bottom-0 left-0 p-8">
               <div className="inline-block bg-surface-container/80 backdrop-blur-md px-3 py-1 mb-3 rounded-sm border border-outline-variant/30">
@@ -79,7 +79,7 @@ const Gallery = () => {
 
           {/* Medium Item 5 */}
           <ClientLink to="/gallery/mclaren-720s" className="md:col-span-6 group relative rounded-lg overflow-hidden border border-outline-variant/10 bg-surface-container-low min-h-[400px] cursor-pointer block">
-            <div className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuBFcPYqCz3tATHDNjurglGkylJ2Ll05u5C2K5A8XM6A4scZIsmODPJkog5fmmQJJIcRIHzHmhOwlcV7a6p6IwnTfcy5-1QKgZx8w1NX_R8KVS-ohCSQ7XewP-XpcceJpcBtEFDt0mxb8YwU9MojOnFTWXiV8fC8sbfBACUDwq1PZafJM4jHnlKO8Cga0KZOmJ99jue3-kZ9cJGpxmOb5QyVq9seO8xDFlXbESrxe1Ecl_haqF9Glqg9f7WzcxgotLmPnLyXablRiAwk')" }}></div>
+            <div className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style={{ backgroundImage: "url('/images/service_ppf.jpg')" }}></div>
             <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/10 to-transparent"></div>
             <div className="absolute bottom-0 left-0 p-8">
               <div className="inline-block bg-surface-container/80 backdrop-blur-md px-3 py-1 mb-3 rounded-sm border border-outline-variant/30">

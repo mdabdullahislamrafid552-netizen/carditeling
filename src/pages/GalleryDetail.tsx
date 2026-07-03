@@ -61,7 +61,7 @@ const GalleryDetail = () => {
         {/* Hero Section - Full Width */}
         <section className="relative w-full h-[500px] md:h-[819px] flex items-end">
           <div className="absolute inset-0 z-0">
-            <img className="w-full h-full object-cover" alt="Vehicle Project" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB08YDgOeCIzbcYGR0bhk3j3MIy2KjiirkTY8WPayJOFuB_LXlJpS4vvLtoSUZE1BWjxfdeT7_69svlvQPQIKaG2ovtlbIizD-jooix6izlGylXa1ZX88JeMP6OsEYkZFHMjGs5SyayvaaR2N6ewCoc3NAvhReG2w5nRZAdqRY9DAW-VTinWo5hNvRM7YMuk8vYhL_G1XBWa8iGAPN5y6caF4GR6vTPwLfrU_A-gKZt7zyGiKWPAwSB5ctdG-8dT7IyNcLma-It8nyI"/>
+            <img className="w-full h-full object-cover" alt="Vehicle Project" src="/images/gallery_car_4.jpg"/>
             <div className="absolute inset-0 bg-gradient-to-t from-[#111416] via-[rgba(8,11,13,0.8)] to-transparent"></div>
           </div>
           <div className="relative z-10 w-full px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto pb-20">
@@ -140,12 +140,12 @@ const GalleryDetail = () => {
               onMouseDown={() => setIsDragging(true)}
               onTouchStart={() => setIsDragging(true)}
             >
-              <img alt="After Polish" className="absolute inset-0 w-full h-full object-cover z-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7ltiDa-tT8ovxuyG064FwqZPrKVKG7kg1DhlIVeH-xyZyebJB2sb593_elcukgIO-xsFpsFuG7JHgFaeNwqpH3cbLIjA9zqt4EH5GsnDur92icjX7WTsEH9kKSwGgXN6pSXnJHLIitG2uUE398R3gWV5jpafVQ0pzyCq7KuxiHxAt1V8jiHn7Yz2puJaBcF_UOV10HT5GSg3aCt3F8FDhGohZIFY0kz_rt2lWvbewFmEPZ-Im8W2KUbTPcCOTZ8kV25K0ABFpKPjt"/>
+              <img alt="After Polish" className="absolute inset-0 w-full h-full object-cover z-0" src="/images/service_exterior.jpg"/>
               <img 
                 alt="Before Polish" 
                 className="absolute inset-0 w-full h-full object-cover z-10" 
                 style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvTFLWUw5VNmYAFiVSqAoZcb6tp5ktufWmQJBiHdFbB4FxICIngM5oJcaApAem0-QRVQBTYuIavfpqHvG7EFLbvmGff4b_86iH6CGwO4D3kU6amH5GnAEfbOUnwyxeDfa-ecQRcy-vnSX_qWF9TJhv0AXt1JiTccYA94swhCNGFgUoYtcMPKh8BYBzpxp100-8D0zjO7qyiOeyQtSlDmjjTb4xE80cLhC43x8sZmNDcgVfUqWoK-hIbtSPJ3GG7i-HFVx8Knn1NG49"
+                src="/images/service_exterior.jpg"
               />
               <div 
                 className="absolute top-0 bottom-0 w-[2px] bg-primary z-20 pointer-events-none flex items-center justify-center"
@@ -164,19 +164,19 @@ const GalleryDetail = () => {
           <h2 className="font-headline-xl text-headline-xl text-on-surface mb-12">Gallery</h2>
           <div className="grid grid-cols-1 md:grid-cols-12 gap-gutter md:auto-rows-[300px]">
             <div className="col-span-1 md:col-span-8 md:row-span-2 group overflow-hidden rounded-lg relative min-h-[300px] md:min-h-0">
-              <img className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Gallery image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDq6l5o1Dch7O1Nu3ubYljsrS8AVSzdqG-_2NNOysjjW95asZewjuZtGkqbYUDBFKvWM2VIi1PsFVmYSUFBTvoKks_37wT1WJkkJxxR4aNMeIUjlECJ4ruGQb6bV7JNBIrcnITk4P2kIM74W87vQ5gQdM6eGwvJkamB3Ci9Uxfnr2DqhTWRi_-M23J_cmsznmLiVYYLygHaBdealcBl_0oSYfm86TNDZUVpdJGeV1KV36CAOv2pLrC6IWWdvcF96RhmcEw9m9HDeFEJ"/>
+              <img className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Gallery image" src="/images/service_exterior.jpg"/>
             </div>
             <div className="col-span-1 md:col-span-4 group overflow-hidden rounded-lg relative min-h-[300px] md:min-h-0">
-              <img className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Gallery image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWnhVRnMEj0uvJ0bcesU1SOqDWe43cU3_eXaUkBLdeFnV5jr9eU1AWL5vpCI-7-Fl7lcDeHYTV7DCRaTI_KRnb0_Gdm0NzsFvSJPGmPEMV10kKPymVtc7XkcA8MAkt-rGFOVi8hfc0EzsIa15rjeEkgAm8imDB4yHIshIIr2nKwjH4e9kNhXRW1jOIXogh6SwDMHGy6F5sEel0AuOdPgKACUON1NBD3yKKdUIMp97wRN0ncxRKgzxZpMHrMNd8IolohTuX6sieeAYk"/>
+              <img className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Gallery image" src="/images/service_wheel.jpg"/>
             </div>
             <div className="col-span-1 md:col-span-4 group overflow-hidden rounded-lg relative min-h-[300px] md:min-h-0">
-              <img className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Gallery image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDIXG272s44FGDc7T43wG6bWVKCxOKQEB-cYQ9_P-8AXJRRYIl8gJKHlcjdUoLGa-DCdc_hWtwmxh2CxledrKRhYFnc3us5AJCpqe8vAUqZ2xn1KSL-6BLiP0wYXBfxZFVHO6VIgVT8uRoy3IjYfNjYJYRudZVOMbpbseORJcIs6h7ReEjLBdkiwRa9DQc1pVZhjrOghEkxHp3JwH70-_X3bonuHnGAEBG4BQiWGD7DoWqzMUHOaxPMel6riIUxqdNYxt18WTkOggJJ"/>
+              <img className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Gallery image" src="/images/gallery_car_3.jpg"/>
             </div>
             <div className="col-span-1 md:col-span-6 group overflow-hidden rounded-lg relative min-h-[300px] md:min-h-0">
-              <img className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Gallery image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBp9JDl5ksRMRFUOhLnNViobWWOXV-LymmpJaR0HNsH7dMr8Y89-E0AtsWyLmYL41DaBRC3imE7M4y11KVg3Bik_h-E3cuvrzfY0JQsx-aM3rHqinKk0i7WMJTZEI_c1yvY8vsHARIrMvVa9OlHWfcts-mnkfYXSyyistUWaq8d9y73ZgYVrV8v4RL34nprVIe0p90NClamvK6KZQEQ_vsaRoFIubcZ87lJEwSWC8rLYd39UiwCIZhX3AVpGvu1KOsLqhThIaqVKs4l"/>
+              <img className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Gallery image" src="/images/service_engine.jpg"/>
             </div>
             <div className="col-span-1 md:col-span-6 group overflow-hidden rounded-lg relative min-h-[300px] md:min-h-0">
-              <img className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Gallery image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCf1ivZo7ZR_u6c98_bTRrUyzW2VlTjhZpD8qKWLy_CpCPFf3JuRw8X8T1qFFn3a9I4YmIpi1-oMrT6M5Z3icJhvfnD0AByNc2XeDtXpjDfglWzXedhw_AlkugCJGrRsi5BpyUmzEMoKfbaqbB9QvIlMty1_ErOXfzwmUpTX5ZQmFRioFbkjI6X46AQvcy4APibuU3hKKKpeTpl41uYVbfi8dffdSsvjZAEQqZ8VL6N-xs9fuDZuPgb-SC4ccPx4Q5RhlPHmYP0Z2Ho"/>
+              <img className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Gallery image" src="/images/gallery_car_4.jpg"/>
             </div>
           </div>
         </section>

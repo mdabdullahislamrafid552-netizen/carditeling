@@ -96,7 +96,7 @@ const FAQ = () => {
           </div>
 
           <div className="relative bg-surface rounded overflow-hidden flex flex-col justify-end min-h-[400px]">
-            <div className="absolute inset-0 bg-cover bg-center opacity-40 transition-transform duration-700 hover:scale-105" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDRTxjFHq24m6X96XWCdNgkMSC_7bR9M0zXnbSZV4bfUn2m2pJYGS1_ebB_05Gl51AQFK0coZcecFN2C8Lwy0eOyWQXQw5KzWGQ9Cn1r0l_vqTa1HGIUjUcOlla_haBqLqfkWT3tRd4CQHLOlr3clz01qIO_3cjIDyWBGN8RoayBEgZvj8IqNEaU3G3k-o06HmCZTvZ2-ZEqj8Z4FAFCGat_CUqeEuQZ3xv2ewh7SQECQrasxXneobMYeoHWR_aysnE4Fx6OEh8TfWg')" }}></div>
+            <div className="absolute inset-0 bg-cover bg-center opacity-40 transition-transform duration-700 hover:scale-105" style={{ backgroundImage: "url('/images/service_exterior.jpg')" }}></div>
             <div className="absolute inset-0 bg-gradient-to-t from-[#080B0D] via-[#080B0D]/50 to-transparent pointer-events-none"></div>
             <div className="relative z-10 p-12">
               <h3 className="font-headline-lg text-headline-lg text-on-surface mb-4">Ready for perfection?</h3>

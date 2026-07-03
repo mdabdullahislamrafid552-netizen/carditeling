@@ -30,7 +30,7 @@ const Packages = () => {
           </div>
           <div className="md:col-span-6 relative h-[400px] md:h-[600px] rounded-lg overflow-hidden group">
             <div className="absolute inset-0 border border-outline-variant/10 z-10 pointer-events-none rounded-lg"></div>
-            <img className="w-full h-full object-cover transform transition-transform duration-[2000ms] group-hover:scale-105" alt="Pristine metallic black sports car" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqsw_Hs_bkdbt052kZRlfI1aWTz2ye-rPyxtsmMvUsb9t7MIMBpXEEpP93O2uvoz2P33JcdNkbKzIaJNeG67uTKlQtDA-seUKoi84rb5WYGmYXgZVhHTmePLJ4xgj_L_acpy0iHPbUpM0_E73VPhfWeAN5meZB8dHYYXoQyzxnuTrDHL7WuInkNpKOT9RdxWbnRJAFiMWF1eXqNfRwHoZUia0gcqiHcQOSKr3Zg6GO67TJCWkXj1I9PpNA9JKteuua6LHVSDGspMEr"/>
+            <img className="w-full h-full object-cover transform transition-transform duration-[2000ms] group-hover:scale-105" alt="Pristine metallic black sports car" src="/images/service_ceramic.jpg"/>
           </div>
         </section>
 

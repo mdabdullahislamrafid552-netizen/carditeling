@@ -11,7 +11,7 @@ const ServiceAreas = () => {
         {/* Hero Section */}
         <section className="relative w-full min-h-[500px] md:min-h-[716px] flex items-center justify-center overflow-hidden border-b border-outline-variant/10">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[40vw] h-[40vw] bg-primary/5 rounded-full blur-[100px] pointer-events-none -z-0"></div>
-          <div className="absolute inset-0 w-full h-full opacity-40 mix-blend-luminosity" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuClYAyiNihfzuRSXdvOyjsAzPPQINEzAVO3uqLzd9zkQ-C_Z0otl1YTRJ5Segz4yjTPZhR6uXcKcAR-W21ZaChQjTJ9a67mNicKz0MR4v2Iyoz9LhtT-y3thMfyu4i6kweCEYXzIh6kCGhVxvTUxZeq49z_JQ-Sls7cP75k0CVa-JXBSAyVmPT9a2PHiDwPKKH-rSCEevSMacSHs7htNG4Zx_xQFXrQeeHnf2O6YxZJfo_-bEOEzKOkGHDmcAi-d1eMJiNrPbtMFHbX')" }}></div>
+          <div className="absolute inset-0 w-full h-full opacity-40 mix-blend-luminosity" style={{ backgroundImage: "url('/images/gallery_car_4.jpg')" }}></div>
           <div className="absolute inset-0 bg-gradient-to-t from-[#080B0D] via-transparent to-transparent"></div>
           <div className="relative z-10 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop w-full grid grid-cols-12 gap-gutter">
             <div className="col-span-12 md:col-span-8 lg:col-span-6 flex flex-col items-start space-y-6">
@@ -49,7 +49,7 @@ const ServiceAreas = () => {
               <button className="border border-outline-variant/30 text-on-surface font-label-caps text-label-caps px-6 py-3 hover:bg-surface-container transition-colors duration-300 rounded">GET DIRECTIONS</button>
             </div>
             <div className="col-span-12 md:col-span-7 h-[400px] md:h-[600px] bg-[#11171B] rounded border border-outline-variant/10 overflow-hidden relative mt-8 md:mt-0">
-              <img className="w-full h-full object-cover opacity-80 hover:scale-105 transition-transform duration-700" alt="Studio exterior" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBifeXFKIy-ruXMQuOUyU6YuXIVwr5X77ktLpvO_mgPcV3WgLymlGN76sgywmRNSGJGsaW_2siQwhpW3QPbStiRiK-Pl87nuBzyDLVmIT2IN6ahup06YSFFTk94czb7gESkycqQ0VwLTUYZd4th8GZZrbKkJtsONHMg7nfav9urlyR1mNsNgjMCREgiC1BAQjLIP5APfnhPj7Kli0Y3hfG9q_zUOuzUoej_Mt3qIbbozAX2ZRSY1iSZ9M4GV8RE6Lb31OIYI62Nj45H"/>
+              <img className="w-full h-full object-cover opacity-80 hover:scale-105 transition-transform duration-700" alt="Studio exterior" src="/images/service_wheel.jpg"/>
             </div>
           </div>
         </section>
@@ -64,7 +64,7 @@ const ServiceAreas = () => {
             <div className="grid grid-cols-12 gap-gutter">
               <div className="col-span-12 lg:col-span-8 h-[300px] md:h-[500px] border border-outline-variant/10 relative overflow-hidden group rounded">
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500 z-10 pointer-events-none"></div>
-                <img className="w-full h-full object-cover" alt="Service areas map" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPK1bL_U94IIX-0qCIWQqi1USqpIyALgtF4KWfLBh6_-cy8mrM484EoCi6x7ZP8M011Z9q2dHdgufoMIcWuRZIcInIIJFxF-uBSLUUGMS_VKaZ3sNZGFzxWH0Ssy9VVlMrnVTD6T7sMdE88Ar6MxzdXOOFk8oXgtd_hSHwxW2NZ4l1S6kcFb_jMF6EOPEr-pD4wtDMRt5n4Z-HWzoc6tOLl57TnKaBZJ8hkamqUUxH3NZRxia2gEpEJAwWYASzM3AiG0MRWAcF6VxV"/>
+                <img className="w-full h-full object-cover" alt="Service areas map" src="/images/gallery_car_2.jpg"/>
               </div>
               <div className="col-span-12 lg:col-span-4 flex flex-col justify-between bg-background p-6 md:p-8 border border-outline-variant/10 rounded mt-8 lg:mt-0">
                 <div>
@@ -110,7 +110,7 @@ const ServiceAreas = () => {
         <section className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-section-gap">
           <div className="grid grid-cols-12 gap-gutter items-center">
             <div className="col-span-12 md:col-span-6 order-2 md:order-1 h-[300px] md:h-[400px] border border-outline-variant/10 p-2 bg-[#11171B] rounded mt-8 md:mt-0">
-              <img className="w-full h-full object-cover rounded" alt="Enclosed transport" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBoWFnLDHMXyDJoIRsgxtGaFCft3hyjOhZ-fVJQSxx4qxDmJyrQzzwC4E6qJs-BnyE3hnyjUpyEdSnZxIyuw7lvTTHIJ_itnVA6y3PdqGUdDsA5n2muE3UgakRoXXXblSDU_5s6C4ruSzfr09BGIs1YsrnHabbIK92hWbmYRvdfGcWwASkB6xZn6mjGGQ09nuWT2Al4dZM-yTrWg7Njy_ro0SLU9KzeMVytNcJ2rhu_2xHyubOLPGbo_IrzHQUYeHhpIJce_vE3q512"/>
+              <img className="w-full h-full object-cover rounded" alt="Enclosed transport" src="/images/service_wheel.jpg"/>
             </div>
             <div className="col-span-12 md:col-span-5 md:col-start-8 order-1 md:order-2 space-y-6">
               <span className="inline-block px-3 py-1 bg-[#11171B] border border-outline-variant/20 text-on-surface-variant font-label-caps text-label-caps rounded">WHITE GLOVE SERVICE</span>

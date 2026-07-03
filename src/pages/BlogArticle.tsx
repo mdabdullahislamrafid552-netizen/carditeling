@@ -11,7 +11,7 @@ const BlogArticle = () => {
         {/* Cinematic Hero */}
         <header className="relative w-full h-[614px] min-h-[500px] flex items-end pb-16 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
           <div className="absolute inset-0 z-0 overflow-hidden rounded-lg border border-outline-variant/10">
-            <div className="bg-cover bg-center w-full h-full opacity-60" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuA5rLDN9bCkNvR5Jel7JKoCr4ThnUguMorYNOGkhrwnA_ffPHoDjcJgzvipfO_8tSlP4mZ9XAbX0IKiA6eZjJckGUxHIRcst6qkPBG5Lj7BnVYSiBqy6ztGoIIYGHlwwiQiUyZ_cIIAFR6TcqpgW0-H7wXimi-ALdPIwVNA8qRQf3QMjyBLK5tdkpiyNIh6JD9PMQgdDxMNzn-kla8xg6UoRiE3GrXNikhHF6_oWmBmRMd9P7ddI1JwifWG_eekxUnO7uzCqsmIxxVv')" }}></div>
+            <div className="bg-cover bg-center w-full h-full opacity-60" style={{ backgroundImage: "url('/images/gallery_car_1.jpg')" }}></div>
             <div className="absolute inset-0 bg-gradient-to-t from-[#080B0D] via-transparent to-transparent"></div>
           </div>
           <div className="relative z-10 max-w-3xl">
@@ -47,7 +47,7 @@ const BlogArticle = () => {
           </p>
 
           <div className="my-12 relative rounded-lg overflow-hidden border border-outline-variant/10">
-            <img className="w-full h-auto object-cover" alt="Stage 2 Paint Correction" src="https://lh3.googleusercontent.com/aida-public/AB6AXuADVesVGcDYtCaLb5-ccDAZ9bQ9-7zpcAVBnLvJGky273N60By1YGXsafdkuaR-ckzZ4I29fldC2WFiA1jjNIiN4TdovaNu-TRbk3J3BFdXfim97edI7zi08YBgaap_mu-vCdzwRvZ9Y2YLYQFV4PqwsmZYQbzdPiuwhBD7xd5dlrmyzz9yDNGzY2Fd5DUxV0nuA5vxVZ1wOYOZMR6fLqAowSc58w1UZ8ktFcUr8fZvCeANZvLBmVRTePm7ZwxY6kOUROIJCnYhMJ6J"/>
+            <img className="w-full h-auto object-cover" alt="Stage 2 Paint Correction" src="/images/gallery_car_4.jpg"/>
             <div className="p-4 bg-[#11171B] text-sm text-center font-label-caps text-label-caps tracking-widest border-t border-outline-variant/10">Stage 2 Paint Correction in Progress</div>
           </div>
 
@@ -70,7 +70,7 @@ const BlogArticle = () => {
           {/* Author Bio */}
           <div className="mt-24 p-8 bg-[#11171B] border border-outline-variant/10 rounded-lg flex flex-col md:flex-row items-center gap-8">
             <div className="w-24 h-24 rounded-full overflow-hidden shrink-0 border-2 border-outline-variant/30">
-              <img className="w-full h-full object-cover" alt="Elias Thorne" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxHGGajjpKWR6fW2eq_9DoJ_4UyOnAu6PS5yd0VF9N7T-71bPBPGWmPrjYkesQ7MXdnOk5OqpY0M9FPFxvu7ZaNmENDPpAwugZWhSLHznBei0Mls6_SeV_FUn1f63pXWhsoT-YUTRCuAl_j6gl7lUV0nicLhErmDTTPIJPuNFq4bF-6Ng0ZEJXjihc53Dw4htmAKpvnew_gIaDRJoaPlNqtQYjfRAn_F0Mjy7Q92Hf0VvgQFYxFkvagCsWknpc-yA6zBgIx9pc3Xp9"/>
+              <img className="w-full h-full object-cover" alt="Elias Thorne" src="/images/service_engine.jpg"/>
             </div>
             <div>
               <div className="font-label-caps text-label-caps text-primary mb-2">WRITTEN BY</div>

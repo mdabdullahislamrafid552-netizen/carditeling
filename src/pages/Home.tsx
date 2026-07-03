@@ -52,7 +52,7 @@ const Home = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
           <ClientLink to="/exterior-detailing" className="group relative bg-surface border border-outline-variant/10 overflow-hidden cursor-pointer block">
             <div className="aspect-[4/3] w-full overflow-hidden">
-              <div className="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700 ease-out" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuCtWGk7dt1F_zcOxJGNAOFJbleV8cIp7VLqyNJWoufIg54Gy-GFF_A6XrN_EkJ45Qs7MEgWpNOvXyJWAE9zc1HP4Z-YztGm3CFb8H12BCm4vbsvkQpKM4Me5KKSfVoLK91slkogMKJdRsSwxl6F_Lrxf4KezZTmQn5ywM7FUHtqqicWCEVANay0lcz21hGqWA4KxEGL2rcdnEObMRbiW_gGkBxCKlbpwCUofyi3svk9qTQq1T-oxw18RCVUh_za9wAlKTT_y_udjz7G')" }}></div>
+              <div className="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700 ease-out" style={{ backgroundImage: "url('/images/service_exterior.jpg')" }}></div>
             </div>
             <div className="p-6 relative bg-surface">
               <h3 className="font-headline-lg text-headline-lg text-on-surface mb-2 text-2xl">Exterior Detailing</h3>
@@ -61,7 +61,7 @@ const Home = () => {
           </ClientLink>
           <ClientLink to="/interior-detailing" className="group relative bg-surface border border-outline-variant/10 overflow-hidden cursor-pointer block">
             <div className="aspect-[4/3] w-full overflow-hidden">
-              <div className="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700 ease-out" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuCMASUzeKyhEMFnoN3z0y4jgePStM36TjgsgSvUBA9K0ZXl98BF-5Q2Q79WIcv1jygXYu3UrIXXeilxGNVdsyV-xB4Q-f-vG-VwYchOEruaYMqvKvXKpPxB_cXeHn1inbuswCA-kNeqF3-oMcuA8YljPTPI5GpYBF-aAmV7WqorAQbQsB994JjvlFeruLiupTSdO3IKKhX2j3fda6F7Pzm2HFmXhtacB9u4eaxu27Tt4pjIsonNzJBdmz_loISy0Quydi0LVcAfUafd')" }}></div>
+              <div className="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700 ease-out" style={{ backgroundImage: "url('/images/service_interior.jpg')" }}></div>
             </div>
             <div className="p-6 relative bg-surface">
               <h3 className="font-headline-lg text-headline-lg text-on-surface mb-2 text-2xl">Interior Detailing</h3>
@@ -70,7 +70,7 @@ const Home = () => {
           </ClientLink>
           <ClientLink to="/paint-correction" className="group relative bg-surface border border-outline-variant/10 overflow-hidden cursor-pointer block">
             <div className="aspect-[4/3] w-full overflow-hidden">
-              <div className="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700 ease-out" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuBK7339cMK2gD_iQxNvC5Sdg5gV2givJMJXJYDGy_JTbdILZEC5c7s-rZVGo1Y4Cf9wmkXnSRUHkfmAqlNlGSqy96OxNydWMJQl6C09oTcyG79oqoZl7PZidX3Iyj2MLQkagpM3OcyEGvdWUDOi_CObE1kYGG6CPahPV0A3xbs495u42_SwoZU2RLs-zFFlAoILzp52S07vw91DvZy97JHbyDQMgntKHK5kZ5S5co4kKNUhHzNME_Ck1aAtPL2XJ-AWkwfJ-Nyw4nOl')" }}></div>
+              <div className="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700 ease-out" style={{ backgroundImage: "url('/images/service_paint_correction.jpg')" }}></div>
             </div>
             <div className="p-6 relative bg-surface">
               <h3 className="font-headline-lg text-headline-lg text-on-surface mb-2 text-2xl">Paint Correction</h3>
@@ -84,8 +84,8 @@ const Home = () => {
       <section className="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface-container-low">
         <div className="max-w-container-max mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="relative h-[600px]">
-            <img alt="Ceramic Coating" className="absolute top-0 left-0 w-3/4 h-3/4 object-cover rounded shadow-2xl border border-outline-variant/20 z-10" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzJB-oPkZqOpn6g3jp5Hy_2sbZcPyQzDloT7lFQbC1VdeJGugSU5H47ggOdggpKBihcqIF0TaMmh0GVVun09XwEX2CtUbzm9eKocpU3BwQJnuGkMmUtHp6qtIYQHgV20fmEFjWZuqVa-Gyi5a5Jz9zMHhCuDaVAgIgbB10kH5vvzHiXWUe4V5ufncUWIufpqK5KMhaBhI6yNYXwXH-Ilp3-1-1b_uz1QJ631GIEVyRiTmTlceFeS0_mpwewx7Dntvmt8skN2iDAUKJ" />
-            <img alt="Leather Interior" className="absolute bottom-0 right-0 w-3/4 h-3/4 object-cover rounded shadow-2xl border border-outline-variant/20 z-20" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBo7UzkBb27rzJUwEVCbPG_ii7q9dt-011Qizn8goLO7bM3UH3GKMTeYOs65zf4BOwdjSyi_ABJIjGymFujyD202ehhsh_IEsLZBsgvQxaN7rz_gv4DA7fVX1398c8mQT9i4dc5eu_580uA-o_jJJvMK1FBFxptK4vKzam5NpRsXp8HwKYWFwul0cePUn22wb_Di6nRm6O_5oL14tvC08MtWFL-hwrgPI4BmCDl9CIx7wd5lOwlZoLWzkze3Z8xQf_QBFc5CZWj5mGT" />
+            <img alt="Ceramic Coating" className="absolute top-0 left-0 w-3/4 h-3/4 object-cover rounded shadow-2xl border border-outline-variant/20 z-10" src="/images/service_ceramic.jpg" />
+            <img alt="Leather Interior" className="absolute bottom-0 right-0 w-3/4 h-3/4 object-cover rounded shadow-2xl border border-outline-variant/20 z-20" src="/images/service_interior.jpg" />
           </div>
           <div>
             <div className="mb-4 text-primary font-label-caps text-label-caps tracking-widest uppercase">PREMIUM VEHICLE PROTECTION</div>
@@ -146,7 +146,7 @@ const Home = () => {
       </section>
 
       {/* 18. Final High-Ticket CTA */}
-      <section className="relative py-32 px-margin-mobile md:px-margin-desktop bg-cover bg-center" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuARn65Du7zSmIwuapavsHA-e19XudqK2FY6PU7IewT3hIlBDBDBzU9u5wzmt-Y_XCYDUfujRfPffq5ve30EuKuBMb2cd1bU7W3WFO9wLZqpt08j2jx4O7OcqPLFCAbcyhxAE9cqytIOaOcScC9WnjxkTo61s5Y46IaEt-BtteRU8vSM8aTfd2zeAsfwdxVqwp_fBM_OlOnMd5HffqrqNZURlVwhsW5W61oB2cIJ0APQ4E3F9Vk35DBYWSdklazr_icn3lAq8rZstFw-')" }}>
+      <section className="relative py-32 px-margin-mobile md:px-margin-desktop bg-cover bg-center" style={{ backgroundImage: "url('/images/service_ceramic.jpg')" }}>
         <div className="absolute inset-0 bg-background/80"></div>
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <h2 className="font-headline-xl text-4xl md:text-6xl text-on-surface mb-6">YOUR VEHICLE DESERVES EXCEPTIONAL CARE</h2>

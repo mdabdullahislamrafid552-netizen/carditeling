@@ -81,7 +81,7 @@ const Reviews = () => {
         <section className="mb-section-gap relative">
           <div className="max-w-[1920px] mx-auto">
             <div className="relative aspect-video w-full group cursor-pointer overflow-hidden">
-              <div className="absolute inset-0 bg-cover bg-center w-full h-full transition-transform duration-700 group-hover:scale-105" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuC7uSzeur_WxF7ym8b2vQAFSVgvHicgZtAAFNO72dsszHlwZBD3I_RvVXddrw0s_RElxfjWfqGx_CzLv13guyq3xC091_Wl-Kc_22mWLjKCtSLcdx8SekWsJD89OxRm2GhV_BZRI5pgBL9cElBy-Kijoej-17E3UuE7THGNPspVhkSxAHjr9R1JFH214RkDaizqTlmlS8U7HJutMcYiURCp9h1t0LxbmMYuVqqwJS7tMt-vCsCMCfrutQ7OoqdrFDPTLYrfLNtiaSZB')" }}></div>
+              <div className="absolute inset-0 bg-cover bg-center w-full h-full transition-transform duration-700 group-hover:scale-105" style={{ backgroundImage: "url('/images/service_engine.jpg')" }}></div>
               <div className="absolute inset-0 bg-background/40 transition-colors group-hover:bg-background/20"></div>
               <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center z-10">
                 <div className="w-20 h-20 rounded-full border border-primary/50 flex items-center justify-center bg-surface-container-lowest/80 backdrop-blur-md mb-8 group-hover:scale-110 group-hover:border-primary transition-all duration-300">

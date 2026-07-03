@@ -49,7 +49,7 @@ const Blog = () => {
             <div className="absolute inset-0 w-[400px] h-[400px] rounded-full blur-[100px] bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
             <div className="grid grid-cols-12 gap-0 border border-outline-variant/10 bg-[#11171B] overflow-hidden rounded">
               <div className="col-span-12 lg:col-span-8 relative h-[400px] lg:h-[600px] overflow-hidden">
-                <img className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" alt="Featured Article" src="https://lh3.googleusercontent.com/aida-public/AB6AXuApQyRQteSTeAimxVB2jOTicHM0q3zC3A5T7pp0QvotYgZ47AcVw1AIgaIe5HwFKAOUM1rkoq8TotwoxTv-fmC6CLmBF-houdCJTxz5fVRoGcA-aifnJ3zbgVyxC8cfQVvq18hU4L8h-NJbUWswbP43bg9FyYxDbreS4dwODZEHWr5Bp1_8x-YIrKbb4MtA1MqSe6tLwT1ge4VeF5ymDAu8iBcW4kWAgcwkmcL7k-_vfBsU_Rq60wUpvJMPucp2StzckoDH7969jShY"/>
+                <img className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" alt="Featured Article" src="/images/gallery_car_2.jpg"/>
                 <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent lg:hidden"></div>
               </div>
               <div className="col-span-12 lg:col-span-4 p-8 lg:p-12 flex flex-col justify-center relative z-10 bg-[#11171B]">
@@ -77,7 +77,7 @@ const Blog = () => {
           <ClientLink to="/blog/stage-3-correction">
             <article className="bg-[#11171B] border border-outline-variant/10 rounded group cursor-pointer flex flex-col h-full overflow-hidden">
               <div className="relative h-64 overflow-hidden border-b border-outline-variant/10">
-                <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" alt="Paint Correction" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCJIGcYymzZpO6OlPJzYWUTzkJUb1Aib_GTHnQI2BxfI2x01GPb8C-Sl317ed_t4K1yv-VndSiLHFk3EQv0UtgyXtZZeazglsSeFbMgAVYm6oQGo_LVRGyHQukkIphIByJfJZbQMSX1mhotAfK5_v4LlTsjWoKiugaWXuoVKKtxFf3DxeZZWzr7XLhWFTjdHMWWfFm4FnGrqqA3Cwog9hOdR-9VGuKjH_qq6Mlfa2UrsS86b7_Lhbi6jjk9ro0CrfWJx0eR-BYNOwP"/>
+                <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" alt="Paint Correction" src="/images/service_ceramic.jpg"/>
               </div>
               <div className="p-8 flex flex-col flex-grow">
                 <div className="flex items-center justify-between mb-4">
@@ -101,7 +101,7 @@ const Blog = () => {
           <ClientLink to="/blog/preserving-heritage-leathers">
             <article className="bg-[#11171B] border border-outline-variant/10 rounded group cursor-pointer flex flex-col h-full overflow-hidden">
               <div className="relative h-64 overflow-hidden border-b border-outline-variant/10">
-                <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" alt="Interior Detailing" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDdSNh-Ea-UhCitO4uuJzBjnd5v5K3_MvETsnb7THItunFyHOPFq129yaRlekCkjv-nfUx_iG3sZVa-wIxG-uiGcMSikitAUXv4mLESB6CbCz-8FxpbeCgiElACXrGy1E7Q5Y_faPnk48WzqBMYT0O_BOW6gteI1zmmV8taxg1eqmIUU57-N_ZrvfOzXNfbbhV6DphOSLDyaDH0K7Z0fo1H43bI_zXdi2ev4v_D0Gt1-JtAScZiTAbIUQ1MYK3ao0R8lwwsz6Qn9sA"/>
+                <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" alt="Interior Detailing" src="/images/service_ppf.jpg"/>
               </div>
               <div className="p-8 flex flex-col flex-grow">
                 <div className="flex items-center justify-between mb-4">
@@ -125,7 +125,7 @@ const Blog = () => {
           <ClientLink to="/blog/architecture-of-hydrophobicity">
             <article className="bg-[#11171B] border border-outline-variant/10 rounded group cursor-pointer flex flex-col h-full overflow-hidden">
               <div className="relative h-64 overflow-hidden border-b border-outline-variant/10">
-                <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" alt="Maintenance" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZn50jU5ybFYJhxMwFmTrMRK_InrzFDpxWAIldb2TVPtxjnzFnaAHwX96zioaAYmHr9bENszyYZnA3IOJ360AfaR0RKrs34P2suzGlL7RK8nCqXiZUXRcBCWCe-x98NTOkJ7wL11Q5b-5NB_p7NDvi5Wpk6en8LPqeU_4VnLcpVKcvJk85BpW-240oe0HcUpDmHyT3s57Yy5OBHEQHLPWVnL3-FMB7luPsnXAPB9Zyg8erDaPyvXgua_46wa_XBGp_KP6FCPHaGpYl"/>
+                <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" alt="Maintenance" src="/images/gallery_car_1.jpg"/>
               </div>
               <div className="p-8 flex flex-col flex-grow">
                 <div className="flex items-center justify-between mb-4">

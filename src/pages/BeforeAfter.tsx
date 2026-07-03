@@ -102,8 +102,8 @@ const BeforeAfter = () => {
               </div>
             </div>
             <ImageSlider 
-              beforeSrc="https://lh3.googleusercontent.com/aida-public/AB6AXuBNw3KSv-6UKz8_tzNI0M8UYXx5x5uscPvTZGNa2XcQq7TYiO7O_AFtkhrIjN9Mx8zOxYIXp2ES3MZmCZhlYzBtpSxAOytvTYVWRaKa_7aLoyExPmpunGHkGdfVWG-MTohRSmGttgWWyy3GwXBbCeCRotwgoiSNYzVl3oF1bNThs4xK5xHJAeS01VWUkoELoP-mAJOYE0QrdeebGc1d_E6T89bIJNEBA3GLBxRvGkEiy6QNVJWSZoS8KxNQ59PxOtXdGu2OBCHf99WT"
-              afterSrc="https://lh3.googleusercontent.com/aida-public/AB6AXuCRfmEQhSlAy4XvYskPqCYKobATeEiVs7MouhX314l5Pm9icgNoiGiCR2ULUn9chPKGOefhTMP2ryfGODLmUX7TGUd0l3DNjx_SI-JEWDSuRZlA5Mlwdu5O0eZbtnYg_xzxnRo5dTCkU80ZqSkF6v4qLIo-aOWAHyeo4bKPn4Pop0M2t15-_Nkd3yPkfBHmMp1NbLxncYL8RFyMgSI_Vj5nOhZR4tYQEXgWopali6s1SgD3NEKS4u3zEmDCeOD953lAqnFVho_RfZPZ"
+              beforeSrc="/images/service_exterior.jpg"
+              afterSrc="/images/service_engine.jpg"
             />
           </article>
 
@@ -119,8 +119,8 @@ const BeforeAfter = () => {
               </div>
             </div>
             <ImageSlider 
-              beforeSrc="https://lh3.googleusercontent.com/aida-public/AB6AXuAfTW7ihskjODuijg6NuRLUKQQYFqxtWv9eXoiVFt18DtO-wpMhXDSv_iN7vVVbuF5cTZHUCEldtw1xNTC711W3ulf0mJH6fHo2uFXkNC60bEh1xPZuzkOW8S7kI-_28bXeUF3e999Le9ZQahXcjJz5N_oHggYLN-vNriZmxpV12In5P7DJYg3Brk5mO0sYS_MSRgGBVmBRscXWLdDpRFsejtsnicF5QsxXFDvKzYh2oIi6-_eYV8n1A1pbredmoa9NU_6f8fgJ_ZR9"
-              afterSrc="https://lh3.googleusercontent.com/aida-public/AB6AXuD3ViMmMKH5iDyJ775-O38Y23q2S4SRhKoS61XZsGCy7oxkyDTi7qBIT2AH4dsNhosv-mdrrnFHhj-gAfpXXvKy9gGsVv3bPYe5gvgfdlOyqi1KqTCo3mo_u3lBYewJOyrnI7mI87FfojMdVmJBEFM7kofrLl9ye1nTP1-lSw5IEIl7flZBt40bFrzCHoDEkIM1K_W_J18GAgMrAzYPs_Mn_syYYrtnWFGS_et74f40zDBbFlTVfKdMlgE-cbCWXZKkD2vEdCUamja8"
+              beforeSrc="/images/gallery_car_1.jpg"
+              afterSrc="/images/service_engine.jpg"
             />
           </article>
         </div>

@@ -72,7 +72,7 @@ const ServiceDetail = () => {
               <div className="absolute inset-0 bg-[#111416] border border-outline-variant/10 md:transform md:translate-x-12 md:translate-y-8 overflow-hidden group rounded">
                 <div className="absolute inset-0 bg-[radial-gradient(rgba(156,142,128,0.15)_1px,transparent_1px)] [background-size:16px_16px] z-10 opacity-30 mix-blend-overlay"></div>
                 <div className="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent z-10"></div>
-                <img className="w-full h-full object-cover opacity-80 group-hover:scale-[1.03] transition-transform duration-[1500ms] ease-out" alt="Exterior Detailing" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTJ-UAx8QSGDvix9ksFa3xbmJ8f5Oxitr0M2k6-o2TSShb9J_zaBHLSp1oR9DUZnJCEpSdD5Q65xpw5PrDSBik32Gy4cdPhU2rQ8xbcyhwUeKZzCxI-DSJBxNC8NUV2WgMfAlZ-zGKrrvAT7wWNHHlExfCpfmcKJ-kMf_O8y4yTK8u7drzYkbNNx4FrMrc4b5-wGEFWTvhE3Sb4ieiYo0jz--coeOvXFTgFv3tfOT-NDbjs3AWlp4o1LIJJNduqmMEArsXg27soR-D"/>
+                <img className="w-full h-full object-cover opacity-80 group-hover:scale-[1.03] transition-transform duration-[1500ms] ease-out" alt="Exterior Detailing" src="/images/gallery_car_3.jpg"/>
                 
                 {/* Technical Overlay Element */}
                 <div className="absolute bottom-8 right-8 z-20 bg-[#11171B]/90 backdrop-blur-md border border-outline-variant/30 p-4 flex items-center space-x-4 rounded hidden sm:flex">
@@ -101,7 +101,7 @@ const ServiceDetail = () => {
             {/* Stage 1: Safe Wash (Large span) */}
             <div className="col-span-1 md:col-span-8 md:row-span-2 bg-[#191c1e] border border-outline-variant/10 relative overflow-hidden group p-8 md:p-12 flex flex-col justify-end rounded min-h-[400px] md:min-h-0">
               <div className="absolute inset-0 bg-[#0b0f11]/50 z-10 transition-colors duration-500 group-hover:bg-transparent"></div>
-              <img className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-60 transition-opacity duration-700 grayscale group-hover:grayscale-0" alt="Safe Wash" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8SQWVPoex5qU7ymEFaIP7ugCNW2ZlgrGqpfC5uf91WD03mNTcSgPXzMRFfhGyHcOhnxilP1XKabLNfFxJxoIT5WsK4WnAIlH1RiIGG23LS6AeyVWE8bSLGk_Gx8rWvUGyr92xerhk4NZbISDDDsyl4aYYWTB1OPBHz6nLd24qF83BXepBSyhdGZ1Ye7Jr7oRZq7dK0r3Y0Dy7yBrcespsn9fmSUXSzrnrZYd78H_thS0cqgMlYw6w5caEyEvTsy2i-QLPZbOSXHPe"/>
+              <img className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-60 transition-opacity duration-700 grayscale group-hover:grayscale-0" alt="Safe Wash" src="/images/service_engine.jpg"/>
               <div className="absolute inset-0 bg-gradient-to-t from-[#0b0f11] via-[#0b0f11]/80 to-transparent z-10"></div>
               <div className="relative z-20 flex flex-col items-start md:w-2/3">
                 <div className="bg-[#111416] border border-outline-variant/30 px-3 py-1 font-label-caps text-label-caps text-on-surface-variant mb-6 uppercase tracking-widest flex items-center space-x-2 rounded">

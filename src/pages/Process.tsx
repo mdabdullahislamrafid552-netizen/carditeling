@@ -11,7 +11,7 @@ const Process = () => {
         {/* Hero Section: Cinematic Introduction */}
         <section className="relative w-full min-h-[600px] md:min-h-[819px] flex items-center justify-start overflow-hidden bg-surface-container-lowest">
           <div className="absolute inset-0 w-full h-full">
-            <div className="absolute inset-0 bg-cover bg-center w-full h-full opacity-60 mix-blend-luminosity" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuBcGMeQDC59Iv3NGhrFKckoY9NhEZlfZAA8YNZUKdCROii-ZDgqJWM-0u0_9us2CpDpZ7zWAxu0jVDJK1IUGbDso4U5V4_qBJqIXrKXtoC117lj1BXh0geGgeBtQKXWwgymrIiIc0Yl0B8XOQT9rWfWBalWiGhxjWK1C4ro8FjjbxBYu6U2aq91dI_BtO70JSgiLaRR7KUP0vbwxe7-2ovjz5EAxQcrMs-og3ZFAwmDc7K6ZiG7GwhzS9epIK4SPAD1y3m5ZI_LKzw1')" }}></div>
+            <div className="absolute inset-0 bg-cover bg-center w-full h-full opacity-60 mix-blend-luminosity" style={{ backgroundImage: "url('/images/gallery_car_1.jpg')" }}></div>
             <div className="absolute inset-0 bg-gradient-to-r from-surface-container-lowest via-surface-container-lowest/80 to-transparent"></div>
             <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
           </div>
@@ -38,7 +38,7 @@ const Process = () => {
             {/* Step 1: Left Aligned */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-gutter items-center">
               <div className="order-2 md:order-1 flex justify-end md:pr-12">
-                <div className="w-full md:w-[80%] aspect-[4/5] bg-cover bg-center border border-outline-variant/10 filter grayscale hover:grayscale-0 transition-all duration-700 rounded" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuCDA8ZuYApvUftCiSuzVDRHnnE6-WYahOGxjukWLvdhtLjv1O8oh3I7eOgDD5wSkalvF8voJQtGKNn2icrQksRqm9lC_JwOwnwtNM_7tpwuHqeGN4IOmBs6VCOCCR8wgCTrEOOLk3eA0vNlRiAn6A_Yw8YaE1XqhdC_lHy5ZnnjMlqTUeuQGTb4u9kstNrQsBM3wyAAQFc5pBU3qnWLM73tDZClTRnzT7kOiBPkoPMSuRL_cpv0gS6pV-FoAr_zaVlBGtki4ZaWjMCb')" }}></div>
+                <div className="w-full md:w-[80%] aspect-[4/5] bg-cover bg-center border border-outline-variant/10 filter grayscale hover:grayscale-0 transition-all duration-700 rounded" style={{ backgroundImage: "url('/images/service_ppf.jpg')" }}></div>
               </div>
               <div className="order-1 md:order-2 md:pl-12 flex flex-col gap-4">
                 <span className="font-display-lg text-display-lg text-surface-variant leading-none">01</span>
@@ -63,14 +63,14 @@ const Process = () => {
                 </div>
               </div>
               <div className="order-2 md:order-2 flex justify-start md:pl-12">
-                <div className="w-full md:w-[80%] aspect-[4/5] bg-cover bg-center border border-outline-variant/10 filter grayscale hover:grayscale-0 transition-all duration-700 rounded" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuD0jCVJ4ZAbTqoJgjb5O3xpvc8EqDogWYBOcBxkGmTFnxvDE9vgg-quPbj-CjKIBFAhu9QT8Uy5JAw2XXIP_aniFu1bP8OiVM5rxbcuZiSrZbDozI53K9NRhV_O4iPKhb9MWbgLGNBRO6hSdt_1-sZdfvL10n9i_TktibdFq5HOrHC2JvJ-VFe-F9Sk67s9zlltpdTJ5yaZcZv0xS7VxFeNpxbDgPWE1QQD6JnW5B63qKeybFGYzUoRvHxOl8xV6b0PIaHrFfI66RGl')" }}></div>
+                <div className="w-full md:w-[80%] aspect-[4/5] bg-cover bg-center border border-outline-variant/10 filter grayscale hover:grayscale-0 transition-all duration-700 rounded" style={{ backgroundImage: "url('/images/gallery_car_1.jpg')" }}></div>
               </div>
             </div>
 
             {/* Step 3: Left Aligned */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-gutter items-center">
               <div className="order-2 md:order-1 flex justify-end md:pr-12">
-                <div className="w-full md:w-[80%] aspect-square bg-cover bg-center border border-outline-variant/10 filter grayscale hover:grayscale-0 transition-all duration-700 rounded" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuCfsEio1v-dhif3sZeKoykkCwkNN20Tl1F6I2PY91sY8ubQhIwKLuUTtSgaeyq4yVBOKzTucNCkgAQi4m7tP0QiHqTC109EwXwuyiRtjwINFXWC1JDy5C8g4boHt7-ttzqiLiGuDKmzqKDNvrfINkTd4rJfYLwOcSvfNeNpTTp4Vb7Xby_NBa_2GE7qNHzyeFS0DtVmHuGKlichwVHeibJIjh_IkZD26MCW2C4koCN9jssEyWdkaSz0gSDnVOjTjfoZ6SGsuPZpBV4r')" }}></div>
+                <div className="w-full md:w-[80%] aspect-square bg-cover bg-center border border-outline-variant/10 filter grayscale hover:grayscale-0 transition-all duration-700 rounded" style={{ backgroundImage: "url('/images/service_paint_correction.jpg')" }}></div>
               </div>
               <div className="order-1 md:order-2 md:pl-12 flex flex-col gap-4">
                 <span className="font-display-lg text-display-lg text-surface-variant leading-none">03</span>
@@ -95,7 +95,7 @@ const Process = () => {
                 </div>
               </div>
               <div className="order-2 md:order-2 flex justify-start md:pl-12">
-                <div className="w-full md:w-[100%] aspect-[16/9] bg-cover bg-center border border-outline-variant/10 filter grayscale hover:grayscale-0 transition-all duration-700 rounded" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuCuwDP3x_K3EYa4Z-MjS2GBexwpwnamAxnpoql1ld8VKZg9FBuq6NIeTnp6icOLSJWwoD1hfBEuxJV8b-XFBiaNwHinVNlkDYdOut4S4G9iAw_ZZXRGcf-Cs2ywv5v3lI1R7EnB_Mm4_-YVHoXUzSJj9v3tcKD9v3gIBz9q2FZmNr_LDoOOtL-G7oMrLizx4sUru9h6oWzY1PTekwcy7HeaDYVQPsiaw3VvPRDOps8tMwLm-q896vwyz0MMaslDgL0oTs-r-wSmOqbl')" }}></div>
+                <div className="w-full md:w-[100%] aspect-[16/9] bg-cover bg-center border border-outline-variant/10 filter grayscale hover:grayscale-0 transition-all duration-700 rounded" style={{ backgroundImage: "url('/images/service_paint_correction.jpg')" }}></div>
               </div>
             </div>
           </div>

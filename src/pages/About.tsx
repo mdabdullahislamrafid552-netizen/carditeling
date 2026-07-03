@@ -12,7 +12,7 @@ const About = () => {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-t from-[#080B0D] via-transparent to-[#080B0D] z-10"></div>
           <div className="absolute inset-0 bg-black/40 z-10"></div>
-          <div className="bg-cover bg-center w-full h-full" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDNARg9BcEdI33ohcBH-OaiyiG4Lph3kuN6TPe6X2DYSXflWaAEguhTTnHmXrm_8xl2lMWVUV24rWmoSjrOwyTLMiV8CIsb8A4BLotY-LazEzQFTDTKXgdcOKrp7sqTRNPENe5HL4DW9rrFjAc-2Os9sBowNDhd9uJs0-_Us5QvhSAcoxLm5fz4qFA2NZOwVHcWxBI8285WjNlvokdycxwRiBjIqkjmBtkTBcrLO6fAL7aYiGIL-dNSXsUSAijcVLK5NPMXZf7elgee')" }}></div>
+          <div className="bg-cover bg-center w-full h-full" style={{ backgroundImage: "url('/images/service_exterior.jpg')" }}></div>
         </div>
         <div className="relative z-20 text-center max-w-4xl mx-auto px-margin-mobile md:px-margin-desktop mt-20">
           <p className="text-primary text-label-caps font-label-caps mb-6 tracking-[0.3em] uppercase">The Pursuit of Perfection</p>
@@ -76,7 +76,7 @@ const About = () => {
             {/* Team Member 1 */}
             <div className="text-center group">
               <div className="overflow-hidden rounded mb-4 border border-outline-variant/20">
-                <img alt="Lead Detailer" className="w-full h-80 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvH2ylR0zoGlFy9ckYWwhgmO8Q9CHXcn1Is141yKwyn4OHL7Uekc_2ROhN4ia4yxUEjf8Qv27ERHGSj5krNgwO9NkHD-jhvXVSNZactK5hn79u3j5T_3_gIKIgPCnh2Pvq7BhZphWZYo4U9d13vRhxYxny555sfEevx4UbF-F3Nd0ahfq9mOvwI4gfg-Vx1Ia1cHpuwLIsle2zIq_GOfahIgiE7RCvCxCEQ3XCGZQIiB9buK9Ylvkfc6lUPKl3cXGQWeBV5WxetUnM"/>
+                <img alt="Lead Detailer" className="w-full h-80 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" src="/images/service_wheel.jpg"/>
               </div>
               <h4 className="font-headline-lg text-lg text-on-surface">Michael T.</h4>
               <p className="text-body-md text-primary">Lead Detailer</p>
@@ -84,7 +84,7 @@ const About = () => {
             {/* Team Member 2 */}
             <div className="text-center group">
               <div className="overflow-hidden rounded mb-4 border border-outline-variant/20">
-                <img alt="Paint Specialist" className="w-full h-80 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCk40OFqf8vKXcPe3l5L4LaLxMoQySDbyhSKJGEqp2R2xI_wlsEZ_A7FXrl1x0rAQEGK2RGdM0Arxhp1MwtoDcYpjoVN-aivzHVSvOeuBSJXwfpVeFuifQB7p62gz0v9SIEYGTusNygRJ7w1bQ4BTKMm309pgvBo2Ez-D5aWoFwp4RZHBOixkNn_0s46V7mrjXEshpSyQw_FOpvyYPUo8xJFQjI27jifm-lurovlTKheI91kX4znGGNy8Ie8ryeRN2qyL4IIMzZhjQq"/>
+                <img alt="Paint Specialist" className="w-full h-80 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" src="/images/gallery_car_1.jpg"/>
               </div>
               <h4 className="font-headline-lg text-lg text-on-surface">Sarah K.</h4>
               <p className="text-body-md text-primary">Paint-Correction Specialist</p>
@@ -92,7 +92,7 @@ const About = () => {
             {/* Team Member 3 */}
             <div className="text-center group">
               <div className="overflow-hidden rounded mb-4 border border-outline-variant/20">
-                <img alt="Ceramic Technician" className="w-full h-80 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLu2YkJ6pS5KYhdruKMtqy2COTiNHyAxR7z0JSyCc_6VIC107Pe7VJ_h_D8FlfOWjnqjr7pi4Kz41b5pJaVchkJLoV9K7HWM0S2RzHiq-is4l8Ya1ZMf1AjE-uio88CXaudcki_gAMv0mm2_LJe0LYNBSCU1_Fpss_6BJUSeGvdAhSplEwsJAiea7Tei56i7x8H9oJ8T4Mx9gYNx2q7mNgPKux69kUihBubAN3uSiLw3NunVyIF9eR4Ba5tRkPsHtznWGeXHhCRfrP"/>
+                <img alt="Ceramic Technician" className="w-full h-80 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" src="/images/service_engine.jpg"/>
               </div>
               <h4 className="font-headline-lg text-lg text-on-surface">David R.</h4>
               <p className="text-body-md text-primary">Ceramic-Coating Technician</p>
@@ -100,7 +100,7 @@ const About = () => {
             {/* Team Member 4 */}
             <div className="text-center group">
               <div className="overflow-hidden rounded mb-4 border border-outline-variant/20">
-                <img alt="Interior Specialist" className="w-full h-80 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbO5HbWFjLGKhmpZZt1ZDrMtIrufSy25JK_WpmCwFfaFlvuWXBJfqKeFY1uBYjKvHVXy4Gce7qIxBtvVaBXdEqJbjhpSrpWj7pcZjhsm_FM2YK8K5xr5XqP0oRaFE_mJaMOvIRJRzWSnP8EDyG-4EVh13nSrgm2BL4B--o0OVabIyC5n3HtAzfNSSrHkISSAj557yRZmIxPhuzaurB7XPBXJOIx73GF_XXlLZdigsMnhcersIF_W-6tIlIFfNJx2fSLtb6ffI2Ib9N"/>
+                <img alt="Interior Specialist" className="w-full h-80 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" src="/images/service_wheel.jpg"/>
               </div>
               <h4 className="font-headline-lg text-lg text-on-surface">Marcus W.</h4>
               <p className="text-body-md text-primary">Interior Specialist</p>
@@ -112,7 +112,7 @@ const About = () => {
       {/* CTA Section */}
       <section className="py-section-gap relative">
         <div className="absolute inset-0 z-0">
-          <div className="bg-cover bg-center w-full h-full opacity-20" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuB-b1e3udk1nuICKfmnoJJ8raNO-ip4k394v3YUM9PObmbhK3Z4OLDZ72s_JA1O2xdVNaV8iONblQz4_G6FNl3Yd95s27Zvu2Lx6FxuKX9JgTxqEMoF383yJWfCzhsfrHuKjtUTpjN0zWBBA86FM70E2G8ySEXzxwRaEdf_NWh5tmF3yQPhPjqnnveD_QHI-rr_t_Y1fHIiL1G-h7FAYJZ0DgfYPgqTCYICFKaMSsdOrrqHmI2IjRrUZ3L4MHYHqxZaq5RF82FPkqiw')" }}></div>
+          <div className="bg-cover bg-center w-full h-full opacity-20" style={{ backgroundImage: "url('/images/service_engine.jpg')" }}></div>
           <div className="absolute inset-0 bg-[#080B0D]/80 mix-blend-multiply"></div>
         </div>
         <div className="relative z-10 max-w-3xl mx-auto text-center px-margin-mobile">
