@@ -17,8 +17,8 @@
     "google": ""
   },
   "branding": {
-    "logoUrl": "",
-    "faviconUrl": "",
+    "logoUrl": "/images/rmcar/rmcar-logo.png",
+    "faviconUrl": "/images/rmcar/rmcar-logo.png",
     "colors": {
       "primary": "#E60000",
       "background": "#111111",

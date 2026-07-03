@@ -253,17 +253,17 @@ const RMCarHome = () => {
           <FadeIn className="mb-12 flex justify-between items-end">
             <div>
               <h2 className="font-headline-xl text-headline-xl text-on-surface mb-4">GALLERY PREVIEW</h2>
-              <p className="font-body-lg text-body-lg text-on-surface-variant">Demo visuals shown until final client photos are added.</p>
+              <p className="font-body-lg text-body-lg text-on-surface-variant">See the transformative results of our premium detailing services.</p>
             </div>
             <ClientLink to="/results" className="hidden md:flex items-center gap-2 text-[#FFC000] font-label-caps text-label-caps hover:text-[#FFC000]/80 transition-colors">
               VIEW FULL GALLERY <span className="material-symbols-outlined">arrow_forward</span>
             </ClientLink>
           </FadeIn>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <img src="/images/service_ceramic.jpg" alt="Demo visual 1" className="w-full h-48 object-cover rounded opacity-80 border border-outline-variant/10" />
-            <img src="/images/service_ppf.jpg" alt="Demo visual 2" className="w-full h-48 object-cover rounded opacity-80 border border-outline-variant/10" />
-            <img src="/images/service_engine.jpg" alt="Demo visual 3" className="w-full h-48 object-cover rounded opacity-80 border border-outline-variant/10" />
-            <img src="/images/service_wheel.jpg" alt="Demo visual 4" className="w-full h-48 object-cover rounded opacity-80 border border-outline-variant/10" />
+            <img src="/images/rmcar/gallery-1.jpg" alt="R&M Detailing Result 1" className="w-full h-48 object-cover rounded opacity-80 border border-outline-variant/10" />
+            <img src="/images/rmcar/gallery-2.jpg" alt="R&M Detailing Result 2" className="w-full h-48 object-cover rounded opacity-80 border border-outline-variant/10" />
+            <img src="/images/rmcar/gallery-3.jpg" alt="R&M Detailing Result 3" className="w-full h-48 object-cover rounded opacity-80 border border-outline-variant/10" />
+            <img src="/images/rmcar/gallery-4.jpg" alt="R&M Detailing Result 4" className="w-full h-48 object-cover rounded opacity-80 border border-outline-variant/10" />
           </div>
         </div>
       </section>

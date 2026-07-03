@@ -16,29 +16,26 @@ const RMCarGallery = () => {
             OUR <span className="text-primary italic">RESULTS</span>
           </h1>
           <p className="font-body-lg text-body-lg text-on-surface-variant max-w-3xl border-l-2 border-[#FFC000] pl-6">
-            Real client photos can be added later. For now, this demo keeps the approved master website visuals in place to show how R&M Car Detailing's results and gallery sections will appear.
+            See the transformative results of our premium detailing and ceramic coating services.
           </p>
         </FadeIn>
 
-        {/* Gallery Grid (Demo Visuals) */}
+        {/* Gallery Grid (Client Photos) */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {[
-            '/images/hero.jpg',
-            '/images/service_ceramic.jpg',
-            '/images/service_exterior.jpg',
-            '/images/service_interior.jpg',
-            '/images/service_ppf.jpg',
-            '/images/service_engine.jpg',
-            '/images/service_wheel.jpg',
-            '/images/service_paint_correction.jpg'
+            '/images/rmcar/gallery-1.jpg',
+            '/images/rmcar/gallery-2.jpg',
+            '/images/rmcar/gallery-3.jpg',
+            '/images/rmcar/gallery-4.jpg',
+            '/images/rmcar/gallery-5.jpg'
           ].map((src, idx) => (
             <FadeIn key={idx} delay={idx * 0.1}>
               <div className="bg-surface border border-outline-variant/10 rounded overflow-hidden shadow group relative border-b-4 border-b-transparent hover:border-b-primary transition-colors">
-                <div className="absolute inset-0 bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-center items-center z-10 p-4 text-center">
-                  <span className="text-white font-label-caps uppercase text-sm mb-2">Demo Result Visual</span>
-                  <span className="text-[#FFC000] text-xs">Client photo to be added later</span>
+                <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-center items-center z-10 p-4 text-center">
+                  <span className="text-white font-label-caps uppercase text-sm mb-2">R&M Detailing</span>
+                  <span className="text-[#FFC000] text-xs">Premium Result</span>
                 </div>
-                <img src={src} alt={`Demo visual ${idx}`} className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-105" />
+                <img src={src} alt={`R&M Car Detailing Result ${idx + 1}`} className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-105" />
               </div>
             </FadeIn>
           ))}
