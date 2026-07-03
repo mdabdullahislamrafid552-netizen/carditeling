@@ -4,12 +4,17 @@ import { ClientLink } from '../components/ui/ClientLink';
 import { FadeIn } from '../components/animations/FadeIn';
 import { StaggerContainer, StaggerItem } from '../components/animations/StaggerContainer';
 import EqualizerAbout from './demos/equalizer/EqualizerAbout';
+import RMCarAbout from './demos/rm-car-detailing/RMCarAbout';
 
 const About = () => {
   const { client } = useClient();
 
   if (client.slug === 'the-equalizer-mobile-car-detailing') {
     return <EqualizerAbout />;
+  }
+
+  if (client.slug === 'r-and-m-car-detailing') {
+    return <RMCarAbout />;
   }
 
   return (

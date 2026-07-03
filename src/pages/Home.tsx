@@ -5,6 +5,7 @@ import { FadeIn } from '../components/animations/FadeIn';
 import { StaggerContainer, StaggerItem } from '../components/animations/StaggerContainer';
 import RiptideHome from './demos/riptide/RiptideHome';
 import EqualizerHome from './demos/equalizer/EqualizerHome';
+import RMCarHome from './demos/rm-car-detailing/RMCarHome';
 
 const Home = () => {
   const { client } = useClient();
@@ -15,6 +16,10 @@ const Home = () => {
 
   if (client.slug === 'the-equalizer-mobile-car-detailing') {
     return <EqualizerHome />;
+  }
+
+  if (client.slug === 'r-and-m-car-detailing') {
+    return <RMCarHome />;
   }
 
   return (

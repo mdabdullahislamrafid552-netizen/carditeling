@@ -7,6 +7,7 @@ export interface ClientProfile {
     phone: string;
     email: string;
     address: string;
+    serviceArea?: string;
     whatsapp?: string;
   };
   businessHours: string;

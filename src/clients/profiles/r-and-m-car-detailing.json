@@ -1,0 +1,33 @@
+{
+  "id": "r-and-m-car-detailing",
+  "name": "R&M Car Detailing",
+  "slug": "r-and-m-car-detailing",
+  "tagline": "Certified Ceramic Coating. Premium Detailing. Pick Up & Drop Off Available.",
+  "contact": {
+    "phone": "(248) 205-9245",
+    "email": "To be added",
+    "address": "To be added",
+    "serviceArea": "75013 (full service area to be confirmed)"
+  },
+  "businessHours": "To be added",
+  "social": {
+    "instagram": "https://www.instagram.com/rmcar.detailing/",
+    "facebook": "",
+    "yelp": "",
+    "google": ""
+  },
+  "branding": {
+    "logoUrl": "",
+    "faviconUrl": "",
+    "colors": {
+      "primary": "#E60000",
+      "background": "#111111",
+      "surface": "#1a1a1a",
+      "onSurface": "#ffffff"
+    }
+  },
+  "seo": {
+    "title": "R&M Car Detailing | Premium Mobile Detailing",
+    "description": "Premium mobile auto detailing, ceramic coating support, and pick up/drop off availability from R&M Car Detailing."
+  }
+}

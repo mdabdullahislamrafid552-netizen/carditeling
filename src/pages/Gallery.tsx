@@ -4,13 +4,19 @@ import { ClientLink } from '../components/ui/ClientLink';
 import { FadeIn } from '../components/animations/FadeIn';
 import { StaggerContainer, StaggerItem } from '../components/animations/StaggerContainer';
 import { Eye, ArrowRight, Check } from 'lucide-react';
+
 import EqualizerGallery from './demos/equalizer/EqualizerGallery';
+import RMCarGallery from './demos/rm-car-detailing/RMCarGallery';
 
 const Gallery = () => {
   const { client } = useClient();
 
   if (client.slug === 'the-equalizer-mobile-car-detailing') {
     return <EqualizerGallery />;
+  }
+
+  if (client.slug === 'r-and-m-car-detailing') {
+    return <RMCarGallery />;
   }
 
   return (

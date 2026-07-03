@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Phone, MapPin, Clock } from 'lucide-react';
 import RiptideLayout from '../../pages/demos/riptide/RiptideLayout';
 import EqualizerLayout from '../../pages/demos/equalizer/EqualizerLayout';
+import RMCarLayout from '../../pages/demos/rm-car-detailing/RMCarLayout';
 
 const Layout = () => {
   const { client } = useClient();
@@ -16,6 +17,10 @@ const Layout = () => {
 
   if (client.slug === 'the-equalizer-mobile-car-detailing') {
     return <EqualizerLayout />;
+  }
+
+  if (client.slug === 'r-and-m-car-detailing') {
+    return <RMCarLayout />;
   }
 
   const [isScrolled, setIsScrolled] = useState(false);

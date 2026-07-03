@@ -1,13 +1,19 @@
 import React from 'react';
 import { useClient } from '../clients/ClientContext';
 import { ClientLink } from '../components/ui/ClientLink';
+
 import EqualizerContact from './demos/equalizer/EqualizerContact';
+import RMCarContact from './demos/rm-car-detailing/RMCarContact';
 
 const Contact = () => {
   const { client } = useClient();
 
   if (client.slug === 'the-equalizer-mobile-car-detailing') {
     return <EqualizerContact />;
+  }
+
+  if (client.slug === 'r-and-m-car-detailing') {
+    return <RMCarContact />;
   }
 
   return (

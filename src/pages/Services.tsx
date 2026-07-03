@@ -3,13 +3,19 @@ import { useClient } from '../clients/ClientContext';
 import { ClientLink } from '../components/ui/ClientLink';
 import { FadeIn } from '../components/animations/FadeIn';
 import { StaggerContainer, StaggerItem } from '../components/animations/StaggerContainer';
+
 import EqualizerServices from './demos/equalizer/EqualizerServices';
+import RMCarServices from './demos/rm-car-detailing/RMCarServices';
 
 const Services = () => {
   const { client } = useClient();
 
   if (client.slug === 'the-equalizer-mobile-car-detailing') {
     return <EqualizerServices />;
+  }
+
+  if (client.slug === 'r-and-m-car-detailing') {
+    return <RMCarServices />;
   }
 
   return (
