@@ -5,6 +5,7 @@ import { FadeIn } from '../components/animations/FadeIn';
 import { StaggerContainer, StaggerItem } from '../components/animations/StaggerContainer';
 import EqualizerServiceAreas from './demos/equalizer/EqualizerServiceAreas';
 import RMCarServiceAreas from './demos/rm-car-detailing/RMCarServiceAreas';
+import DeFeosServiceAreas from './demos/defeos-diamond-detailing/DeFeosServiceAreas';
 
 const ServiceAreas = () => {
   const { client } = useClient();
@@ -15,6 +16,10 @@ const ServiceAreas = () => {
 
   if (client.slug === 'r-and-m-car-detailing') {
     return <RMCarServiceAreas />;
+  }
+  
+  if (client.slug === 'defeos-diamond-detailing') {
+    return <DeFeosServiceAreas />;
   }
 
   return (

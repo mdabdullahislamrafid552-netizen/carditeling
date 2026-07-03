@@ -1,0 +1,34 @@
+{
+  "id": "defeos-diamond-detailing",
+  "name": "DeFeo's Diamond Detailing",
+  "slug": "defeos-diamond-detailing",
+  "tagline": "Interior • Exterior • Full Details 💎",
+  "contact": {
+    "phone": "201-800-0401",
+    "email": "defeosdiamonddetailing@gmail.com",
+    "address": "To be added",
+    "serviceArea": "Bergen County, NJ and surrounding areas"
+  },
+  "businessHours": "To be added",
+  "social": {
+    "instagram": "https://www.instagram.com/defeosdiamonddetailing/",
+    "facebook": "",
+    "yelp": "",
+    "google": ""
+  },
+  "branding": {
+    "logoUrl": "https://i.imgur.com/nf0x40i.png",
+    "faviconUrl": "",
+    "colors": {
+      "primary": "#FFD700",
+      "secondary": "#D5F604",
+      "background": "#111111",
+      "surface": "#1A1A1A",
+      "onSurface": "#FFFFFF"
+    }
+  },
+  "seo": {
+    "title": "DeFeo’s Diamond Detailing | Mobile Auto Detailing Bergen County, NJ",
+    "description": "Mobile auto detailing in Bergen County, NJ. DeFeo’s Diamond Detailing offers exterior wash, interior cleanse, full detail, and advanced detail packages."
+  }
+}

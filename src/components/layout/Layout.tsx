@@ -7,6 +7,7 @@ import { Menu, X, Phone, MapPin, Clock } from 'lucide-react';
 import RiptideLayout from '../../pages/demos/riptide/RiptideLayout';
 import EqualizerLayout from '../../pages/demos/equalizer/EqualizerLayout';
 import RMCarLayout from '../../pages/demos/rm-car-detailing/RMCarLayout';
+import DeFeosLayout from '../../pages/demos/defeos-diamond-detailing/DeFeosLayout';
 
 const Layout = () => {
   const { client } = useClient();
@@ -21,6 +22,10 @@ const Layout = () => {
 
   if (client.slug === 'r-and-m-car-detailing') {
     return <RMCarLayout />;
+  }
+  
+  if (client.slug === 'defeos-diamond-detailing') {
+    return <DeFeosLayout />;
   }
 
   const [isScrolled, setIsScrolled] = useState(false);

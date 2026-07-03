@@ -6,6 +6,7 @@ import { StaggerContainer, StaggerItem } from '../components/animations/StaggerC
 import RiptideHome from './demos/riptide/RiptideHome';
 import EqualizerHome from './demos/equalizer/EqualizerHome';
 import RMCarHome from './demos/rm-car-detailing/RMCarHome';
+import DeFeosHome from './demos/defeos-diamond-detailing/DeFeosHome';
 
 const Home = () => {
   const { client } = useClient();
@@ -20,6 +21,10 @@ const Home = () => {
 
   if (client.slug === 'r-and-m-car-detailing') {
     return <RMCarHome />;
+  }
+  
+  if (client.slug === 'defeos-diamond-detailing') {
+    return <DeFeosHome />;
   }
 
   return (

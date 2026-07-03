@@ -5,6 +5,7 @@ import { FadeIn } from '../components/animations/FadeIn';
 import { StaggerContainer, StaggerItem } from '../components/animations/StaggerContainer';
 import EqualizerAbout from './demos/equalizer/EqualizerAbout';
 import RMCarAbout from './demos/rm-car-detailing/RMCarAbout';
+import DeFeosAbout from './demos/defeos-diamond-detailing/DeFeosAbout';
 
 const About = () => {
   const { client } = useClient();
@@ -15,6 +16,10 @@ const About = () => {
 
   if (client.slug === 'r-and-m-car-detailing') {
     return <RMCarAbout />;
+  }
+
+  if (client.slug === 'defeos-diamond-detailing') {
+    return <DeFeosAbout />;
   }
 
   return (

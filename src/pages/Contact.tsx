@@ -4,6 +4,7 @@ import { ClientLink } from '../components/ui/ClientLink';
 
 import EqualizerContact from './demos/equalizer/EqualizerContact';
 import RMCarContact from './demos/rm-car-detailing/RMCarContact';
+import DeFeosContact from './demos/defeos-diamond-detailing/DeFeosContact';
 
 const Contact = () => {
   const { client } = useClient();
@@ -14,6 +15,10 @@ const Contact = () => {
 
   if (client.slug === 'r-and-m-car-detailing') {
     return <RMCarContact />;
+  }
+  
+  if (client.slug === 'defeos-diamond-detailing') {
+    return <DeFeosContact />;
   }
 
   return (

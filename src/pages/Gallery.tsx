@@ -7,6 +7,7 @@ import { Eye, ArrowRight, Check } from 'lucide-react';
 
 import EqualizerGallery from './demos/equalizer/EqualizerGallery';
 import RMCarGallery from './demos/rm-car-detailing/RMCarGallery';
+import DeFeosGallery from './demos/defeos-diamond-detailing/DeFeosGallery';
 
 const Gallery = () => {
   const { client } = useClient();
@@ -17,6 +18,10 @@ const Gallery = () => {
 
   if (client.slug === 'r-and-m-car-detailing') {
     return <RMCarGallery />;
+  }
+
+  if (client.slug === 'defeos-diamond-detailing') {
+    return <DeFeosGallery />;
   }
 
   return (
