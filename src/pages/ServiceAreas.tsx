@@ -7,6 +7,7 @@ import EqualizerServiceAreas from './demos/equalizer/EqualizerServiceAreas';
 import RMCarServiceAreas from './demos/rm-car-detailing/RMCarServiceAreas';
 import DeFeosServiceAreas from './demos/defeos-diamond-detailing/DeFeosServiceAreas';
 import ExclusiveServiceAreas from './demos/exclusive-detailing-02/ExclusiveServiceAreas';
+import ApexServiceAreas from './demos/apex-auto-detailing/ApexServiceAreas';
 
 const ServiceAreas = () => {
   const { client } = useClient();
@@ -25,6 +26,10 @@ const ServiceAreas = () => {
 
   if (client.slug === 'exclusive-detailing-02') {
     return <ExclusiveServiceAreas />;
+  }
+
+  if (client.slug === 'apex-auto-detailing') {
+    return <ApexServiceAreas />;
   }
 
   return (

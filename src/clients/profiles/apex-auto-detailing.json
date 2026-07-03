@@ -1,0 +1,124 @@
+{
+  "id": "apex-auto-detailing",
+  "name": "APEX Auto Detailing",
+  "businessName": "APEX Auto Detailing",
+  "visibleBrandName": "APEX Auto Detailing",
+  "slug": "apex-auto-detailing",
+  "tagline": "Detailing Beyond Expectations",
+  "description": "Premium Interior & Exterior Details. Mobile Service Available — We Come To You.",
+  "contact": {
+    "phone": "973-897-1999",
+    "email": "apexautodetailingjb@gmail.com",
+    "address": "North Jersey (Mobile Service)",
+    "serviceArea": "North Jersey"
+  },
+  "businessHours": "To be added",
+  "social": {
+    "instagram": "https://www.instagram.com/apexautodetailingjb/",
+    "facebook": "",
+    "yelp": "",
+    "google": ""
+  },
+  "branding": {
+    "logoUrl": "",
+    "faviconUrl": "",
+    "colors": {
+      "primary": "#FF0000",
+      "secondary": "#00FFFF",
+      "dark": "#111111",
+      "surface": "#1A1A1A",
+      "text": "#FFFFFF",
+      "muted": "#C0C0C0"
+    }
+  },
+  "seo": {
+    "title": "APEX Auto Detailing | Mobile Auto Detailing North Jersey",
+    "description": "APEX Auto Detailing provides premium mobile interior and exterior detailing, full detail packages, ceramic coatings, and pet hair removal for cars, SUVs, and trucks in North Jersey."
+  },
+  "packages": [
+    {
+      "id": "car-interior",
+      "name": "Car Interior",
+      "price": "$140",
+      "description": "Clean inside. Drive better.",
+      "vehicleType": "Car",
+      "popular": false
+    },
+    {
+      "id": "car-exterior",
+      "name": "Car Exterior",
+      "price": "$120",
+      "description": "Clean outside. Stand out.",
+      "vehicleType": "Car",
+      "popular": false
+    },
+    {
+      "id": "car-apex-full",
+      "name": "Car Apex Full Package",
+      "price": "$200",
+      "description": "The ultimate detail.",
+      "vehicleType": "Car",
+      "popular": true
+    },
+    {
+      "id": "suv-interior",
+      "name": "SUV Interior",
+      "price": "$150",
+      "description": "Clean inside. Drive better.",
+      "vehicleType": "SUV",
+      "popular": false
+    },
+    {
+      "id": "suv-exterior",
+      "name": "SUV Exterior",
+      "price": "$130",
+      "description": "Clean outside. Stand out.",
+      "vehicleType": "SUV",
+      "popular": false
+    },
+    {
+      "id": "suv-apex-full",
+      "name": "SUV Apex Full Package",
+      "price": "$225",
+      "description": "The ultimate detail.",
+      "vehicleType": "SUV",
+      "popular": true
+    },
+    {
+      "id": "truck-interior",
+      "name": "Truck Interior",
+      "price": "$160",
+      "description": "Clean inside. Drive better.",
+      "vehicleType": "Truck",
+      "popular": false
+    },
+    {
+      "id": "truck-exterior",
+      "name": "Truck Exterior",
+      "price": "$140",
+      "description": "Clean outside. Stand out.",
+      "vehicleType": "Truck",
+      "popular": false
+    },
+    {
+      "id": "truck-apex-full",
+      "name": "Truck Apex Full Package",
+      "price": "$240",
+      "description": "The ultimate detail.",
+      "vehicleType": "Truck",
+      "popular": true
+    }
+  ],
+  "addons": [
+    {
+      "id": "pet-hair",
+      "name": "Pet Hair Removal",
+      "price": "$50"
+    },
+    {
+      "id": "ceramic-coating",
+      "name": "Ceramic Coating",
+      "price": "$50"
+    }
+  ]
+}

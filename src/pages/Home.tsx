@@ -8,6 +8,7 @@ import EqualizerHome from './demos/equalizer/EqualizerHome';
 import RMCarHome from './demos/rm-car-detailing/RMCarHome';
 import DeFeosHome from './demos/defeos-diamond-detailing/DeFeosHome';
 import ExclusiveHome from './demos/exclusive-detailing-02/ExclusiveHome';
+import ApexHome from './demos/apex-auto-detailing/ApexHome';
 
 const Home = () => {
   const { client } = useClient();
@@ -30,6 +31,10 @@ const Home = () => {
 
   if (client.slug === 'exclusive-detailing-02') {
     return <ExclusiveHome />;
+  }
+
+  if (client.slug === 'apex-auto-detailing') {
+    return <ApexHome />;
   }
 
   return (

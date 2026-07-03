@@ -9,6 +9,7 @@ import EqualizerGallery from './demos/equalizer/EqualizerGallery';
 import RMCarGallery from './demos/rm-car-detailing/RMCarGallery';
 import DeFeosGallery from './demos/defeos-diamond-detailing/DeFeosGallery';
 import ExclusiveGallery from './demos/exclusive-detailing-02/ExclusiveGallery';
+import ApexGallery from './demos/apex-auto-detailing/ApexGallery';
 
 const Gallery = () => {
   const { client } = useClient();
@@ -27,6 +28,10 @@ const Gallery = () => {
 
   if (client.slug === 'exclusive-detailing-02') {
     return <ExclusiveGallery />;
+  }
+
+  if (client.slug === 'apex-auto-detailing') {
+    return <ApexGallery />;
   }
 
   return (

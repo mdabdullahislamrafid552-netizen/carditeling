@@ -8,6 +8,7 @@ import EqualizerServices from './demos/equalizer/EqualizerServices';
 import RMCarServices from './demos/rm-car-detailing/RMCarServices';
 import DeFeosServices from './demos/defeos-diamond-detailing/DeFeosServices';
 import ExclusiveServices from './demos/exclusive-detailing-02/ExclusiveServices';
+import ApexServices from './demos/apex-auto-detailing/ApexServices';
 
 const Services = () => {
   const { client } = useClient();
@@ -26,6 +27,10 @@ const Services = () => {
 
   if (client.slug === 'exclusive-detailing-02') {
     return <ExclusiveServices />;
+  }
+
+  if (client.slug === 'apex-auto-detailing') {
+    return <ApexServices />;
   }
 
   return (

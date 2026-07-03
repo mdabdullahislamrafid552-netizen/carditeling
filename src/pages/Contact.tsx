@@ -6,6 +6,7 @@ import EqualizerContact from './demos/equalizer/EqualizerContact';
 import RMCarContact from './demos/rm-car-detailing/RMCarContact';
 import DeFeosContact from './demos/defeos-diamond-detailing/DeFeosContact';
 import ExclusiveContact from './demos/exclusive-detailing-02/ExclusiveContact';
+import ApexContact from './demos/apex-auto-detailing/ApexContact';
 
 const Contact = () => {
   const { client } = useClient();
@@ -24,6 +25,10 @@ const Contact = () => {
 
   if (client.slug === 'exclusive-detailing-02') {
     return <ExclusiveContact />;
+  }
+
+  if (client.slug === 'apex-auto-detailing') {
+    return <ApexContact />;
   }
 
   return (

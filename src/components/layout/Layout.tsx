@@ -9,6 +9,7 @@ import EqualizerLayout from '../../pages/demos/equalizer/EqualizerLayout';
 import RMCarLayout from '../../pages/demos/rm-car-detailing/RMCarLayout';
 import DeFeosLayout from '../../pages/demos/defeos-diamond-detailing/DeFeosLayout';
 import ExclusiveLayout from '../../pages/demos/exclusive-detailing-02/ExclusiveLayout';
+import ApexLayout from '../../pages/demos/apex-auto-detailing/ApexLayout';
 
 const Layout = () => {
   const { client } = useClient();
@@ -34,6 +35,14 @@ const Layout = () => {
       <ExclusiveLayout>
         <Outlet />
       </ExclusiveLayout>
+    );
+  }
+
+  if (client.slug === 'apex-auto-detailing') {
+    return (
+      <ApexLayout>
+        <Outlet />
+      </ApexLayout>
     );
   }
 

@@ -7,6 +7,7 @@ import EqualizerAbout from './demos/equalizer/EqualizerAbout';
 import RMCarAbout from './demos/rm-car-detailing/RMCarAbout';
 import DeFeosAbout from './demos/defeos-diamond-detailing/DeFeosAbout';
 import ExclusiveAbout from './demos/exclusive-detailing-02/ExclusiveAbout';
+import ApexAbout from './demos/apex-auto-detailing/ApexAbout';
 
 const About = () => {
   const { client } = useClient();
@@ -25,6 +26,10 @@ const About = () => {
 
   if (client.slug === 'exclusive-detailing-02') {
     return <ExclusiveAbout />;
+  }
+
+  if (client.slug === 'apex-auto-detailing') {
+    return <ApexAbout />;
   }
 
   return (
