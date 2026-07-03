@@ -6,6 +6,7 @@ import { StaggerContainer, StaggerItem } from '../components/animations/StaggerC
 import EqualizerAbout from './demos/equalizer/EqualizerAbout';
 import RMCarAbout from './demos/rm-car-detailing/RMCarAbout';
 import DeFeosAbout from './demos/defeos-diamond-detailing/DeFeosAbout';
+import ExclusiveAbout from './demos/exclusive-detailing-02/ExclusiveAbout';
 
 const About = () => {
   const { client } = useClient();
@@ -20,6 +21,10 @@ const About = () => {
 
   if (client.slug === 'defeos-diamond-detailing') {
     return <DeFeosAbout />;
+  }
+
+  if (client.slug === 'exclusive-detailing-02') {
+    return <ExclusiveAbout />;
   }
 
   return (

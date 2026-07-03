@@ -6,6 +6,7 @@ import { StaggerContainer, StaggerItem } from '../components/animations/StaggerC
 import EqualizerServiceAreas from './demos/equalizer/EqualizerServiceAreas';
 import RMCarServiceAreas from './demos/rm-car-detailing/RMCarServiceAreas';
 import DeFeosServiceAreas from './demos/defeos-diamond-detailing/DeFeosServiceAreas';
+import ExclusiveServiceAreas from './demos/exclusive-detailing-02/ExclusiveServiceAreas';
 
 const ServiceAreas = () => {
   const { client } = useClient();
@@ -20,6 +21,10 @@ const ServiceAreas = () => {
   
   if (client.slug === 'defeos-diamond-detailing') {
     return <DeFeosServiceAreas />;
+  }
+
+  if (client.slug === 'exclusive-detailing-02') {
+    return <ExclusiveServiceAreas />;
   }
 
   return (

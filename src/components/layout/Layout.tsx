@@ -8,6 +8,7 @@ import RiptideLayout from '../../pages/demos/riptide/RiptideLayout';
 import EqualizerLayout from '../../pages/demos/equalizer/EqualizerLayout';
 import RMCarLayout from '../../pages/demos/rm-car-detailing/RMCarLayout';
 import DeFeosLayout from '../../pages/demos/defeos-diamond-detailing/DeFeosLayout';
+import ExclusiveLayout from '../../pages/demos/exclusive-detailing-02/ExclusiveLayout';
 
 const Layout = () => {
   const { client } = useClient();
@@ -26,6 +27,14 @@ const Layout = () => {
   
   if (client.slug === 'defeos-diamond-detailing') {
     return <DeFeosLayout />;
+  }
+
+  if (client.slug === 'exclusive-detailing-02') {
+    return (
+      <ExclusiveLayout>
+        <Outlet />
+      </ExclusiveLayout>
+    );
   }
 
   const [isScrolled, setIsScrolled] = useState(false);

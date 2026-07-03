@@ -40,6 +40,7 @@ const AppRoutes = () => (
       <Route path="before-after" element={<BeforeAfter />} />
       <Route path="packages" element={<Packages />} />
       <Route path="gallery" element={<Gallery />} />
+      <Route path="results" element={<Gallery />} />
       <Route path="gallery/:vehicleSlug" element={<GalleryDetail />} />
       <Route path="process" element={<Process />} />
       <Route path="mobile-detailing" element={<ServiceDetail />} />
@@ -74,6 +75,7 @@ const AppRoutes = () => (
         <Route path="before-after" element={<BeforeAfter />} />
         <Route path="packages" element={<Packages />} />
         <Route path="gallery" element={<Gallery />} />
+        <Route path="results" element={<Gallery />} />
         <Route path="gallery/:vehicleSlug" element={<GalleryDetail />} />
         <Route path="process" element={<Process />} />
         <Route path="mobile-detailing" element={<ServiceDetail />} />

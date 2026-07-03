@@ -1,0 +1,34 @@
+{
+  "id": "exclusive-detailing-02",
+  "name": "Exclusive Detailing 02",
+  "slug": "exclusive-detailing-02",
+  "tagline": "Where Clean Isn't Enough Perfection Is The Standard",
+  "contact": {
+    "phone": "707-333-6776",
+    "email": "contact@exclusivedetailing02.demo",
+    "address": "Bay Area (Location to be confirmed)",
+    "serviceArea": "Bay Area"
+  },
+  "businessHours": "Mobile & Local Appointments Available",
+  "social": {
+    "instagram": "https://www.instagram.com/exclusivedetailing02/",
+    "facebook": "",
+    "yelp": "",
+    "google": ""
+  },
+  "branding": {
+    "logoUrl": "https://i.imgur.com/62gZ4fN.png",
+    "faviconUrl": "",
+    "colors": {
+      "primary": "#C0C0C0",
+      "secondary": "#FFFFFF",
+      "background": "#111111",
+      "surface": "#1A1A1A",
+      "onSurface": "#FFFFFF"
+    }
+  },
+  "seo": {
+    "title": "Exclusive Detailing 02 | Bay Area Mobile Auto Detailing",
+    "description": "Premium auto detailing for Bay Area clients. Exclusive Detailing 02 offers Basic Wash, Mini Detail, and Exclusive Detail packages with mobile and local appointment availability."
+  }
+}

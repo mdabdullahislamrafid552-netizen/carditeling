@@ -7,6 +7,7 @@ import RiptideHome from './demos/riptide/RiptideHome';
 import EqualizerHome from './demos/equalizer/EqualizerHome';
 import RMCarHome from './demos/rm-car-detailing/RMCarHome';
 import DeFeosHome from './demos/defeos-diamond-detailing/DeFeosHome';
+import ExclusiveHome from './demos/exclusive-detailing-02/ExclusiveHome';
 
 const Home = () => {
   const { client } = useClient();
@@ -25,6 +26,10 @@ const Home = () => {
   
   if (client.slug === 'defeos-diamond-detailing') {
     return <DeFeosHome />;
+  }
+
+  if (client.slug === 'exclusive-detailing-02') {
+    return <ExclusiveHome />;
   }
 
   return (

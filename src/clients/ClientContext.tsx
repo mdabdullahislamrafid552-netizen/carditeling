@@ -7,6 +7,7 @@ import riptide from './profiles/riptide-car-wash.json';
 import equalizer from './profiles/the-equalizer-mobile-car-detailing.json';
 import rmcar from './profiles/r-and-m-car-detailing.json';
 import defeos from './profiles/defeos-diamond-detailing.json';
+import exclusive from './profiles/exclusive-detailing-02.json';
 
 const clientProfiles: Record<string, ClientProfile> = {
   'vanta-auto-detailing': vanta,
@@ -16,6 +17,7 @@ const clientProfiles: Record<string, ClientProfile> = {
   'the-equalizer-mobile-car-detailing': equalizer,
   'r-and-m-car-detailing': rmcar,
   'defeos-diamond-detailing': defeos,
+  'exclusive-detailing-02': exclusive,
 };
 
 // Fallback is Vanta
