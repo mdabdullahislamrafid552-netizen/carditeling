@@ -22,6 +22,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsAndConditions from './pages/TermsAndConditions';
 import NotFound from './pages/NotFound';
 import Layout from './components/layout/Layout';
+import { SmoothScroll } from './components/layout/SmoothScroll';
 
 const AppRoutes = () => (
   <Routes>
@@ -99,9 +100,11 @@ const AppRoutes = () => (
 const App = () => {
   return (
     <ClientProvider>
-      <BrowserRouter>
-        <AppRoutes />
-      </BrowserRouter>
+      <SmoothScroll>
+        <BrowserRouter>
+          <AppRoutes />
+        </BrowserRouter>
+      </SmoothScroll>
     </ClientProvider>
   );
 };

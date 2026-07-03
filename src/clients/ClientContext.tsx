@@ -3,11 +3,13 @@ import { ClientProfile } from '../types/client';
 import vanta from './profiles/vanta-auto-detailing.json';
 import obsidian from './profiles/obsidian-auto-spa.json';
 import apex from './profiles/apex-detail-studio.json';
+import riptide from './profiles/riptide-car-wash.json';
 
 const clientProfiles: Record<string, ClientProfile> = {
   'vanta-auto-detailing': vanta,
   'obsidian-auto-spa': obsidian,
   'apex-detail-studio': apex,
+  'riptide-car-wash': riptide,
 };
 
 // Fallback is Vanta
@@ -39,6 +41,17 @@ export const ClientProvider = ({ children }: { children: ReactNode }) => {
   useEffect(() => {
     // Inject dynamic CSS variables if needed
     document.documentElement.style.setProperty('--primary', client.branding.colors.primary);
+
+    // Update favicon
+    if (client.branding.faviconUrl) {
+      let link = document.querySelector("link[rel~='icon']") as HTMLLinkElement;
+      if (!link) {
+        link = document.createElement('link');
+        link.rel = 'icon';
+        document.head.appendChild(link);
+      }
+      link.href = client.branding.faviconUrl;
+    }
   }, [client]);
 
   return (

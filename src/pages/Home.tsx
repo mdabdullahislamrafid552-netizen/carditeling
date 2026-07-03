@@ -1,9 +1,16 @@
 import React from 'react';
 import { useClient } from '../clients/ClientContext';
 import { ClientLink } from '../components/ui/ClientLink';
+import { FadeIn } from '../components/animations/FadeIn';
+import { StaggerContainer, StaggerItem } from '../components/animations/StaggerContainer';
+import RiptideHome from './demos/riptide/RiptideHome';
 
 const Home = () => {
   const { client } = useClient();
+
+  if (client.slug === 'riptide-car-wash') {
+    return <RiptideHome />;
+  }
 
   return (
     <div className="bg-background">
@@ -15,7 +22,7 @@ const Home = () => {
         </div>
         <div className="hero-glow z-10"></div>
         <div className="relative z-20 w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-12 gap-gutter">
-          <div className="md:col-span-8 flex flex-col gap-6">
+          <FadeIn className="md:col-span-8 flex flex-col gap-6" delay={0.2}>
             <div className="inline-flex items-center gap-2 border border-outline-variant/30 bg-surface/50 backdrop-blur-sm px-4 py-2 w-fit rounded">
               <span className="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
               <span className="font-label-caps text-label-caps text-on-surface-variant tracking-widest uppercase">Elite Car Detailing</span>
@@ -34,13 +41,13 @@ const Home = () => {
                 <span className="material-symbols-outlined text-[18px]">play_circle</span> VIEW GALLERY
               </ClientLink>
             </div>
-          </div>
+          </FadeIn>
         </div>
       </section>
 
       {/* 4. Services Grid */}
       <section className="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
-        <div className="mb-16 md:flex justify-between items-end">
+        <FadeIn className="mb-16 md:flex justify-between items-end">
           <div className="max-w-2xl">
             <h2 className="font-headline-xl text-headline-xl text-on-surface mb-4">TRANSFORM YOUR VEHICLE</h2>
             <p className="font-body-lg text-body-lg text-on-surface-variant">High-quality detailing services tailored for automotive perfection.</p>
@@ -48,46 +55,52 @@ const Home = () => {
           <ClientLink className="hidden md:flex items-center gap-2 text-primary font-label-caps text-label-caps hover:text-primary/90 transition-colors" to="/services">
             ALL SERVICES <span className="material-symbols-outlined">arrow_forward</span>
           </ClientLink>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
-          <ClientLink to="/exterior-detailing" className="group relative bg-surface border border-outline-variant/10 overflow-hidden cursor-pointer block">
-            <div className="aspect-[4/3] w-full overflow-hidden">
-              <div className="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700 ease-out" style={{ backgroundImage: "url('/images/service_exterior.jpg')" }}></div>
-            </div>
-            <div className="p-6 relative bg-surface">
-              <h3 className="font-headline-lg text-headline-lg text-on-surface mb-2 text-2xl">Exterior Detailing</h3>
-              <p className="font-body-md text-body-md text-on-surface-variant">Comprehensive hand wash, decontamination, and protection.</p>
-            </div>
-          </ClientLink>
-          <ClientLink to="/interior-detailing" className="group relative bg-surface border border-outline-variant/10 overflow-hidden cursor-pointer block">
-            <div className="aspect-[4/3] w-full overflow-hidden">
-              <div className="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700 ease-out" style={{ backgroundImage: "url('/images/service_interior.jpg')" }}></div>
-            </div>
-            <div className="p-6 relative bg-surface">
-              <h3 className="font-headline-lg text-headline-lg text-on-surface mb-2 text-2xl">Interior Detailing</h3>
-              <p className="font-body-md text-body-md text-on-surface-variant">Deep extraction, thorough vacuuming, and complete sanitization.</p>
-            </div>
-          </ClientLink>
-          <ClientLink to="/paint-correction" className="group relative bg-surface border border-outline-variant/10 overflow-hidden cursor-pointer block">
-            <div className="aspect-[4/3] w-full overflow-hidden">
-              <div className="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700 ease-out" style={{ backgroundImage: "url('/images/service_paint_correction.jpg')" }}></div>
-            </div>
-            <div className="p-6 relative bg-surface">
-              <h3 className="font-headline-lg text-headline-lg text-on-surface mb-2 text-2xl">Paint Correction</h3>
-              <p className="font-body-md text-body-md text-on-surface-variant">Multi-stage machine polishing to remove swirls and scratches.</p>
-            </div>
-          </ClientLink>
-        </div>
+        </FadeIn>
+        <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+          <StaggerItem>
+            <ClientLink to="/exterior-detailing" className="group relative bg-surface border border-outline-variant/10 overflow-hidden cursor-pointer block h-full">
+              <div className="aspect-[4/3] w-full overflow-hidden">
+                <div className="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700 ease-out" style={{ backgroundImage: "url('/images/service_exterior.jpg')" }}></div>
+              </div>
+              <div className="p-6 relative bg-surface">
+                <h3 className="font-headline-lg text-headline-lg text-on-surface mb-2 text-2xl">Exterior Detailing</h3>
+                <p className="font-body-md text-body-md text-on-surface-variant">Comprehensive hand wash, decontamination, and protection.</p>
+              </div>
+            </ClientLink>
+          </StaggerItem>
+          <StaggerItem>
+            <ClientLink to="/interior-detailing" className="group relative bg-surface border border-outline-variant/10 overflow-hidden cursor-pointer block h-full">
+              <div className="aspect-[4/3] w-full overflow-hidden">
+                <div className="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700 ease-out" style={{ backgroundImage: "url('/images/service_interior.jpg')" }}></div>
+              </div>
+              <div className="p-6 relative bg-surface">
+                <h3 className="font-headline-lg text-headline-lg text-on-surface mb-2 text-2xl">Interior Detailing</h3>
+                <p className="font-body-md text-body-md text-on-surface-variant">Deep extraction, thorough vacuuming, and complete sanitization.</p>
+              </div>
+            </ClientLink>
+          </StaggerItem>
+          <StaggerItem>
+            <ClientLink to="/paint-correction" className="group relative bg-surface border border-outline-variant/10 overflow-hidden cursor-pointer block h-full">
+              <div className="aspect-[4/3] w-full overflow-hidden">
+                <div className="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700 ease-out" style={{ backgroundImage: "url('/images/service_paint_correction.jpg')" }}></div>
+              </div>
+              <div className="p-6 relative bg-surface">
+                <h3 className="font-headline-lg text-headline-lg text-on-surface mb-2 text-2xl">Paint Correction</h3>
+                <p className="font-body-md text-body-md text-on-surface-variant">Multi-stage machine polishing to remove swirls and scratches.</p>
+              </div>
+            </ClientLink>
+          </StaggerItem>
+        </StaggerContainer>
       </section>
 
       {/* 5. Premium Vehicle Protection Split Section */}
       <section className="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface-container-low">
         <div className="max-w-container-max mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <div className="relative h-[600px]">
+          <FadeIn direction="right" className="relative h-[600px]">
             <img alt="Ceramic Coating" className="absolute top-0 left-0 w-3/4 h-3/4 object-cover rounded shadow-2xl border border-outline-variant/20 z-10" src="/images/service_ceramic.jpg" />
             <img alt="Leather Interior" className="absolute bottom-0 right-0 w-3/4 h-3/4 object-cover rounded shadow-2xl border border-outline-variant/20 z-20" src="/images/service_interior.jpg" />
-          </div>
-          <div>
+          </FadeIn>
+          <FadeIn direction="left">
             <div className="mb-4 text-primary font-label-caps text-label-caps tracking-widest uppercase">PREMIUM VEHICLE PROTECTION</div>
             <h2 className="font-headline-xl text-headline-xl text-on-surface mb-6">QUALITY CAR SERVICES YOU CAN TRUST</h2>
             <ul className="space-y-4 mb-8">
@@ -100,7 +113,7 @@ const Home = () => {
               <ClientLink to="/services" className="bg-primary text-on-primary font-label-caps text-label-caps px-8 py-4 rounded hover:bg-primary/90 transition-colors">EXPLORE SERVICES</ClientLink>
               <ClientLink to="/contact" className="border border-primary text-primary font-label-caps text-label-caps px-8 py-4 rounded hover:bg-primary/10 transition-colors">CONTACT US</ClientLink>
             </div>
-          </div>
+          </FadeIn>
         </div>
       </section>
 
@@ -148,7 +161,7 @@ const Home = () => {
       {/* 18. Final High-Ticket CTA */}
       <section className="relative py-32 px-margin-mobile md:px-margin-desktop bg-cover bg-center" style={{ backgroundImage: "url('/images/service_ceramic.jpg')" }}>
         <div className="absolute inset-0 bg-background/80"></div>
-        <div className="relative z-10 max-w-4xl mx-auto text-center">
+        <FadeIn className="relative z-10 max-w-4xl mx-auto text-center" delay={0.2}>
           <h2 className="font-headline-xl text-4xl md:text-6xl text-on-surface mb-6">YOUR VEHICLE DESERVES EXCEPTIONAL CARE</h2>
           <p className="text-body-lg text-on-surface-variant mb-10 max-w-2xl mx-auto">Experience the pinnacle of automotive detailing. Secure your appointment with our master technicians today.</p>
           <div className="flex flex-wrap justify-center gap-4">
@@ -157,7 +170,7 @@ const Home = () => {
               <span className="material-symbols-outlined">call</span> CALL NOW
             </a>
           </div>
-        </div>
+        </FadeIn>
       </section>
 
     </div>

@@ -1,0 +1,26 @@
+{
+  "id": "riptide",
+  "slug": "riptide-car-wash",
+  "name": "Riptide Car Wash",
+  "contact": {
+    "phone": "Phone number to be added",
+    "email": "Email to be added",
+    "address": "Address to be confirmed",
+    "whatsapp": ""
+  },
+  "businessHours": "Business hours to be confirmed",
+  "social": {
+    "instagram": "https://instagram.com/riptide_car.washing"
+  },
+  "branding": {
+    "logoUrl": "/images/riptide-logo.jpg",
+    "faviconUrl": "/images/riptide-logo.jpg",
+    "colors": {
+      "primary": "#00E5FF"
+    }
+  },
+  "seo": {
+    "title": "Riptide Car Wash | Car Washing in Alta Loma & Upland",
+    "description": "Riptide Car Wash provides local car washing service for Alta Loma and Upland. DM to book. Cash, Apple Pay, and Cash App accepted."
+  }
+}
